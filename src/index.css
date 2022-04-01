@@ -42,4 +42,16 @@ code {
   --bg-gradient : radial-gradient(70.33% 77.87% at 50.01% 50%, #404142 0%, #39393A 39.07%, #1B1B1C 82.65%, #000000 100%);
   
 }
+
+
+@media (max-width : 500px) {
+
+  h1{
+    font-size : 50px !important;
+  }
+  h2{
+    font-size: 40px !important;
+  }
+  
+}
  

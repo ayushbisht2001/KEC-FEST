@@ -6,7 +6,8 @@ import Events from './components/events';
 
 function App() {
   return (
-    <>
+    <div className='container-fluid p-0 m-0 overflow-hidden'>
+
 
       <Header />
       <Body />
@@ -20,7 +21,7 @@ function App() {
 
         }
       </div>
-    </>
+    </div>
   );
 }
 
