@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import Header from './components/header';
 import Body from './components/body';
@@ -7,17 +6,19 @@ import Events from './components/events';
 
 function App() {
   return (
-  <>
-  <Header />
-  <Body />
-  
-  { 
-    Timeline && Timeline.map(item => {return (
-      <Events data = {item} />
-    )})
+    <>
+      <Header />
+      <Body />
 
-  }
-</>
+      {
+        Timeline && Timeline.map(item => {
+          return (
+            <Events data={item} />
+          )
+        })
+
+      }
+    </>
   );
 }
 
