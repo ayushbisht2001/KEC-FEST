@@ -35,12 +35,12 @@
     height: 50px;
     line-height: 50px;
     border-radius: 50%;
-    background: #e84c47;
+    background: var(--color-pink);
     border: 1px solid #fff;
     text-align: center;
     font-size: 25px;
     color: #fff;
-    box-shadow: 0 0 0 2px #e84c47;
+    box-shadow: 0 0 0 2px var(--color-pink);
     position: absolute;
     top: -30px;
     left: 0
@@ -50,7 +50,7 @@
     display: block;
     padding: 30px 10px 10px;
     border-radius: 20px;
-    background: #e84c47;
+    background: var(--color-pink);
     color: #fff;
     position: relative
 }
@@ -67,12 +67,13 @@
     width: 10px;
     height: 50px;
     border-radius: 10px;
-    background: #e84c47;
+    background: var(--color-pink);
     border: 1px solid #fff;
     position: absolute;
     top: -35px;
     left: 50px
 }
+
 
 .main-timeline2 .timeline-content:after {
     left: auto;
@@ -108,6 +109,7 @@
     margin-top: 130px
 }
 
+
 .main-timeline2 .timeline:nth-child(odd) {
     margin: -130px 0 30px
 }
@@ -131,19 +133,26 @@
 .main-timeline2 .timeline:nth-child(3n) .icon,
 .main-timeline2 .timeline:nth-child(3n) .timeline-content,
 .main-timeline2 .timeline:nth-child(3n) .timeline-content:after,
-.main-timeline2 .timeline:nth-child(3n) .timeline-content:before {
-    background: #ff9e09
+.main-timeline2 .timeline:nth-child(3n) .timeline-content:before
+{
+    background: var(--color-orange)
 }
 
 .main-timeline2 .timeline:nth-child(3n) .icon {
-    box-shadow: 0 0 0 2px #ff9e09
+    box-shadow: 0 0 0 2px var(--color-orange)
 }
 
 .main-timeline2 .timeline:nth-child(4n) .icon,
 .main-timeline2 .timeline:nth-child(4n) .timeline-content,
 .main-timeline2 .timeline:nth-child(4n) .timeline-content:after,
-.main-timeline2 .timeline:nth-child(4n) .timeline-content:before {
-    background: #3ebae7
+.main-timeline2 .timeline:nth-child(4n) .timeline-content:before,
+.main-timeline2 .timeline:nth-child(7) .icon,
+.main-timeline2 .timeline:nth-child(7) .timeline-content,
+.main-timeline2 .timeline:nth-child(7) .timeline-content:after,
+.main-timeline2 .timeline:nth-child(7) .timeline-content:before  {
+    background: #3ebae7;
+    
+    box-shadow: 0 0 0 2px #3ebae7;
 }
 
 .main-timeline2 .timeline:nth-child(4n) .icon {

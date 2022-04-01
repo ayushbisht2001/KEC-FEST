@@ -1,6 +1,8 @@
 import Idea from "../components/svg/idea"
 import CssBattle from "../components/svg/css.battle"
 import Cicada from "../components/svg/cicada"
+import LogoDesign from "../components/svg/logoDesign"
+
 import Blind from "../components/svg/blind"
 import MonkeyType from "../components/svg/monkey-type"
 export const Timeline = [
@@ -67,8 +69,6 @@ export const Timeline = [
                 "tertiary": "",
             }
         }
-
-
 
     }, {
         id: 3,
@@ -168,7 +168,6 @@ export const Timeline = [
             }
         }
 
-
     }, {
         id: 6,
         title: "Logo Design",
@@ -190,7 +189,7 @@ export const Timeline = [
 
         desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi velit non nisi repellendus deleniti magni accusantium, earum tenetur facilis sit, quaerat quasi atque nihil nemo vero, explicabo fugiat odit voluptatibus. Nihil, odit?",
         cls: "logo_design",
-        left: <Idea />,
+        left: <LogoDesign />,
         style: {
             color: {
                 "bg": "black",
@@ -199,8 +198,6 @@ export const Timeline = [
                 "tertiary": "",
             }
         }
-
-
     },
     {
         id: 7,
