@@ -1,0 +1,44 @@
+@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+
+/* Global */
+ 
+.line-1{
+    position: relative;
+    width: 24em;
+    margin: auto;
+    border-right: 2px solid black;
+    font-size: 2rem;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden ;
+    transform: translateY(-50%);    
+}
+
+/* Animation */
+.anim-typewriter{
+  animation: typewriter 6s steps(44) 6s infinite normal both,
+             blinkTextCursor 500ms steps(44) infinite normal;
+}
+@keyframes typewriter{
+  0%{width: 0;}
+  50%{width: 100%;}
+  55%{
+      width: 100%;
+  }
+  95%{width: 0%;}
+  100%{width: 0%;}
+
+
+}
+@keyframes blinkTextCursor{
+
+  from{border-right-color: black;}
+  to{border-right-color: transparent;}
+}
+
+.monkey-logo{
+    display: inline-block;
+    width: 100%;
+    height: auto ;
+
+}
