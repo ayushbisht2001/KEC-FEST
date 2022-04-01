@@ -2,15 +2,22 @@ import logo from './logo.svg';
 import './App.css';
 import Header from './components/header';
 import Body from './components/body';
-// import Particles from 'react-particles-js';
+import { Timeline } from './data/timeline';
+import Events from './components/events';
+
 function App() {
   return (
-    <>
+  <>
+  <Header />
+  <Body />
+  
+  { 
+    Timeline && Timeline.map(item => {return (
+      <Events data = {item} />
+    )})
 
-      <Header />
-      <Body />
-
-    </>
+  }
+</>
   );
 }
 
