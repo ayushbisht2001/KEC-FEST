@@ -1,5 +1,6 @@
 import Idea from "../components/svg/idea"
 import CssBattle from "../components/svg/css.battle"
+import Cicada from "../components/svg/cicada"
 export  const  Timeline = [
     {   
         id : 1,
@@ -22,7 +23,7 @@ export  const  Timeline = [
 
         desc : "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi velit non nisi repellendus deleniti magni accusantium, earum tenetur facilis sit, quaerat quasi atque nihil nemo vero, explicabo fugiat odit voluptatibus. Nihil, odit?",
         cls : "cicada",
-        left : <Idea />,
+        left : <Cicada />,
         style : {
             color : {
                 "bg" : "black",
