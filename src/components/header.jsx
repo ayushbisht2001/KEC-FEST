@@ -7,6 +7,7 @@ export default function Header() {
   return (
     <div className="header">
 
+
       <h2 className="college-name">Bipin Tripathi Kumaon Institute of Technology</h2>
       <div className="header-container">
         <div className="left-container">
@@ -20,7 +21,6 @@ export default function Header() {
             <h1 className="fest-h3">2K22</h1>
           </div>
           <p>Fest Start from 18 April to 19 April 2K22</p>
-
         </div>
 
       </div>
