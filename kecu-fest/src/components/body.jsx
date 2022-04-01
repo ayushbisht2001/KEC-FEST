@@ -12,9 +12,7 @@ export default function Body() {
      <>    
   <div  class="container-fluid bg-dark ">
     <div class="row ">
-        <div class="col-md-8 mx-auto">
-        <div class="row">
-                <div class="col-md-12">
+        <div class="col-12">
                     <div class="main-timeline2">
                        
                     {
@@ -43,8 +41,7 @@ export default function Body() {
          
           
         </div>
-    </div>
-</div>
+ 
 </>)
   
 }
