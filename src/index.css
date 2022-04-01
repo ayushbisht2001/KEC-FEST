@@ -19,17 +19,18 @@ code {
 
 *{
 
-
-  --pr_color_header : #00273e;
-  --se_color_header : orangered;
   --pr_font : 'Rock 3D', cursive;
   --se_font : 'Mulish', sans-serif;
-  --pr2_font:'Lora', serif;
   
-
+  --pr2_font:'Lora', serif;
+  --fest-font:'Righteous', cursive;
 
   /* Colors */
+
+  --pr-color:#000;
+  --sc-color:#fff;
   --bg-color : black;
+  
   --color-green : #159D8C;
   --color-pink : #FE74AE;
   --color-blue : #2476E3;
@@ -38,8 +39,6 @@ code {
 
   /*  Gradient color */
   --bg-gradient : radial-gradient(70.33% 77.87% at 50.01% 50%, #404142 0%, #39393A 39.07%, #1B1B1C 82.65%, #000000 100%);
-  
-
   
 }
  

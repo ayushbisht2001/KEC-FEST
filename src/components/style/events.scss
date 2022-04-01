@@ -34,7 +34,16 @@
             font-weight: 650;
 
         }
-        
+        .cord{
+
+            list-style: none;
+            display: flex;
+            
+            li{
+                padding : 5px;
+                font-family: var(--se_font) ;
+            }
+        }
 
     }
 
