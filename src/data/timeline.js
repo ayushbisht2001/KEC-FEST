@@ -3,6 +3,8 @@ import CssBattle from "../components/svg/css.battle"
 import Cicada from "../components/svg/cicada"
 import LogoDesign from "../components/svg/logoDesign"
 
+import Blind from "../components/svg/blind"
+import MonkeyType from "../components/svg/monkey-type"
 export const Timeline = [
     {
         id: 1,
@@ -58,7 +60,7 @@ export const Timeline = [
 
         desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi velit non nisi repellendus deleniti magni accusantium, earum tenetur facilis sit, quaerat quasi atque nihil nemo vero, explicabo fugiat odit voluptatibus. Nihil, odit?",
         cls: "blind",
-        left: <Idea />,
+        left: <Blind />,
         style: {
             color: {
                 "bg": "#159D8C",
@@ -156,7 +158,7 @@ export const Timeline = [
 
         desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi velit non nisi repellendus deleniti magni accusantium, earum tenetur facilis sit, quaerat quasi atque nihil nemo vero, explicabo fugiat odit voluptatibus. Nihil, odit?",
         cls: "monkey",
-        left: <Idea />,
+        left: <MonkeyType />,
         style: {
             color: {
                 "bg": "#FC8D14",

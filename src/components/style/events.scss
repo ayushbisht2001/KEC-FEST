@@ -2,10 +2,8 @@
 
     width: 100%;
     height: 100vh;
-    scroll-snap-align: start;     
-}
-.event-container{
-    height: 100vh;
+    scroll-snap-align: start;  
+
 }
 
 .events>h1{
@@ -27,7 +25,7 @@
         font-size: 1.5rem;
         text-align: center;
         font-family: var(--se_font) ;
-
+        font-weight: 640;
     }
 
     .desc{
@@ -127,11 +125,66 @@
 
         }
     }
-
-
-
-
-
-
 }
 //  
+
+.blind {
+
+    .left{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
+
+
+
+
+@media (max-width : 1000px) {
+
+    .left{
+        display: none !important;
+    }  
+  
+.right{
+
+    h2{
+        font-size: 2rem;
+    }
+    .time, .venue {
+        font-size: 1.2rem;
+        text-align: center;
+        font-family: var(--se_font) ;
+
+    }
+
+    .desc{
+        font-size : 1.1rem;
+        text-align  : center;
+        margin : 10px auto auto auto ;
+        font-family: var(--se_font) ;
+
+    }
+
+    .cord-block{
+
+        p{
+            font-size : 1.2rem;
+            font-weight: 650;
+            text-align: center;
+        }
+        .cord{
+            text-align: center;
+            padding: 0px;
+
+            li{
+                font-size: 1.1rem;
+            }
+        }
+
+    }
+
+}
+     
+}
