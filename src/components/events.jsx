@@ -16,7 +16,7 @@ export default function Events(props) {
   } = props.data;
 
   return (
-    <section id = {`events-${id}`} style={{backgroundColor: style.color.bg, color:"white" }} className={`container-fluid event-container ${cls}`}>
+    <section id={`events-${id}`} style={{ backgroundColor: style.color.bg, color: "white" }} className={`container-fluid event-container ${cls}`}>
       <div className="row p-2 ">
         <div className=" col-md-12 col-lg-6 left">{left}</div>
         <div className=" col-md-12 col-lg-6 right">
@@ -30,7 +30,7 @@ export default function Events(props) {
             <pre className="venue"> At {venue} </pre>
             <p className="desc">{desc}</p>
             <div className=" cord-block d-block">
-                <p> Coordinators :  </p>
+              <p> Coordinators :  </p>
               <ul className="cord">
                 {coordinators &&
                   coordinators.map((co) => (
