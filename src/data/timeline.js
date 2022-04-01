@@ -1,5 +1,5 @@
 import Idea from "../components/svg/idea"
-
+import CssBattle from "../components/svg/css.battle"
 export  const  Timeline = [
     {   
         id : 1,
@@ -22,6 +22,15 @@ export  const  Timeline = [
 
         desc : "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi velit non nisi repellendus deleniti magni accusantium, earum tenetur facilis sit, quaerat quasi atque nihil nemo vero, explicabo fugiat odit voluptatibus. Nihil, odit?",
         cls : "cicada",
+        left : <Idea />,
+        style : {
+            color : {
+                "bg" : "black",
+                "primary" : "",
+                "secondary" : "",
+                "tertiary" : "",
+            }
+        }
 
 
     }, 
@@ -46,6 +55,15 @@ export  const  Timeline = [
 
         desc : "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi velit non nisi repellendus deleniti magni accusantium, earum tenetur facilis sit, quaerat quasi atque nihil nemo vero, explicabo fugiat odit voluptatibus. Nihil, odit?",
         cls : "blind",
+        left : <Idea />,
+        style : {
+            color : {
+                "bg" : "#159D8C",
+                "primary" : "",
+                "secondary" : "",
+                "tertiary" : "",
+            }
+        }
 
 
 
@@ -70,6 +88,15 @@ export  const  Timeline = [
 
         desc : "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi velit non nisi repellendus deleniti magni accusantium, earum tenetur facilis sit, quaerat quasi atque nihil nemo vero, explicabo fugiat odit voluptatibus. Nihil, odit?",
         cls : "backtrack",
+        left : <Idea />,
+        style : {
+            color : {
+                "bg" : "#FE74AE",
+                "primary" : "",
+                "secondary" : "",
+                "tertiary" : "",
+            }
+        }
 
 
 
@@ -95,6 +122,14 @@ export  const  Timeline = [
         desc : "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi velit non nisi repellendus deleniti magni accusantium, earum tenetur facilis sit, quaerat quasi atque nihil nemo vero, explicabo fugiat odit voluptatibus. Nihil, odit?",
         cls : "ideathon",
         left : <Idea />,
+        style : {
+            color : {
+                "bg" : "#2476E3",
+                "primary" : "",
+                "secondary" : "",
+                "tertiary" : "",
+            }
+        }
 
 
 
@@ -120,7 +155,15 @@ export  const  Timeline = [
 
         desc : "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi velit non nisi repellendus deleniti magni accusantium, earum tenetur facilis sit, quaerat quasi atque nihil nemo vero, explicabo fugiat odit voluptatibus. Nihil, odit?",
         cls : "monkey",
-
+        left : <Idea />,
+        style : {
+            color : {
+                "bg" : "#FC8D14",
+                "primary" : "",
+                "secondary" : "",
+                "tertiary" : "",
+            }
+        }
 
 
     },  {   
@@ -144,7 +187,15 @@ export  const  Timeline = [
 
         desc : "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi velit non nisi repellendus deleniti magni accusantium, earum tenetur facilis sit, quaerat quasi atque nihil nemo vero, explicabo fugiat odit voluptatibus. Nihil, odit?",
         cls : "logo_design",
-
+        left : <Idea />,
+        style : {
+            color : {
+                "bg" : "black",
+                "primary" : "",
+                "secondary" : "",
+                "tertiary" : "",
+            }
+        }
 
 
     }, 
@@ -168,7 +219,17 @@ export  const  Timeline = [
         ],
 
         desc : "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi velit non nisi repellendus deleniti magni accusantium, earum tenetur facilis sit, quaerat quasi atque nihil nemo vero, explicabo fugiat odit voluptatibus. Nihil, odit?",
-
+        left : <CssBattle />,
+        cls : "css-battle",
+        style : {
+           
+            color : {
+                "bg" : "#159D8C",
+                "primary" : "",
+                "secondary" : "",
+                "tertiary" : "",
+            }
+        }
     }, 
 
 ]

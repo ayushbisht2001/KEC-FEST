@@ -18,17 +18,23 @@
     .time, .venue {
         font-size: 1.5rem;
         text-align: center;
+        font-family: var(--se_font) ;
+
     }
 
     .desc{
         font-size : 1.3rem;
         text-align  : left;
         margin : 10px auto auto auto ;
+        font-family: var(--se_font) ;
+
     }
 
     .cord-block{
         margin-top: 10px;
         padding: 10px;
+        font-family: var(--se_font) ;
+
         p{
             font-size : 1.6rem;
             font-weight: 650;
@@ -38,10 +44,11 @@
 
             list-style: none;
             display: flex;
+            flex-direction: column;
             
             li{
-                padding : 5px;
-                font-family: var(--se_font) ;
+                padding : 2px;
+                font-size: 1.3rem;
             }
         }
 
@@ -51,7 +58,7 @@
 
 
 
-.cicada{
+.ideathon{
 
     background: var(--color-dark);
     
@@ -75,6 +82,19 @@
         }
     }
 
+}
+
+.css-battle{
+
+    .left{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        // background-color: red;
+        div{
+            // background-color: green;
+        }
+    }
 }
 
 
