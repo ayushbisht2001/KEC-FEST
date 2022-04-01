@@ -1,0 +1,455 @@
+.explore-card-container{
+
+    width: 100%;
+    height: auto;
+    /* background-color: red; */
+
+
+}
+
+.explore-card-inner{
+
+    width: 260px;
+    height: 300px;
+    position: relative;
+    margin-right: 0px;
+    margin-left: auto;
+    perspective: 600px;
+
+}
+
+.explore-card-container .explore-card-inner .explore-card {
+    
+    width: 100%;
+    height: 100%;
+    transform-origin: 0 50%;
+    position: absolute;
+    perspective: 600px;
+    transition: 2s all;
+    transition-timing-function: ease-in-out;
+}
+
+
+.explore-card-container .explore-card-inner .cards{
+
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    border-radius: 20px;
+    transform-origin: 50% 50%;
+    transform: rotateY(350deg);
+     box-shadow: inset 0 4px 7px 1px #ffffff, 
+                 inset 0 -5px 20px rgb(173 186 204 / 25%), 0 2px 6px rgb(0 21 64 / 14%), 0 10px 20px rgb(0 21 64 / 5%);
+
+    transition: 2s all ;
+    transition-timing-function: ease-in-out;
+}
+
+
+.explore-card-container .explore-card-inner .explore-card:nth-child(3) {
+
+    right: 0px;
+    
+}
+
+
+.explore-card-container .explore-card-inner .explore-card:nth-child(2){
+
+    right : 75px;
+    transform: scale(0.83);
+    opacity: 0.7;
+
+}
+
+
+.explore-card-container .explore-card-inner .explore-card:nth-child(1){
+    transform: scale(0.63);
+    right : 130px;
+    opacity: 0.2;
+
+}
+
+
+.explore-card-container .explore-card-inner .cards  .bottom {
+    height: 30%;
+    width: 100%;
+    border-radius: 0px 0px 20px 20px;    
+}
+
+.explore-card-container .explore-card-inner .play {
+    position: absolute;
+    right: 25px;
+    bottom : 40px;
+    width: 80px;
+    height: 80px;
+    background-color: white;
+    border-radius: 100%;
+    box-shadow: inset 0 4px 7px 1px #ffffff,
+                inset 0 -5px 20px rgb(173 186 204 / 25%) , 0 2px 6px rgb(0 21 64 / 14%), 0 10px 20px rgb(0 21 64 / 5%);
+}
+
+.explore-card-container .explore-card-inner .play p{
+
+    width: 20px;
+    height: 20px;
+    clip-path: polygon(50% 0, 0 100%, 100% 100%);
+    transform: rotate(90deg);
+    background-color: rgba(226, 220, 220, 0.74);
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+
+}
+
+
+.explore-card-container .explore-card-inner .card-1 .top{
+
+    height: 70%;
+    width: 100%;
+    background : linear-gradient(#96d1f9, #00cded);
+    border-radius: 20px 20px 0px 0px;
+
+}
+
+
+
+
+.explore-card-container .explore-card-inner .cards .top .top-content{
+    height: 100px;
+    width: 100%;
+
+}
+
+
+.explore-card-container .explore-card-inner .card-1 .top .top-content .row-1{
+    width: 100%;
+    height: 50%;
+    position: relative;
+    padding: 0px 15px;
+}
+
+
+
+.card-1 .top .top-content .row-1 p{
+    display: inline-block;
+    top: 0px;
+    border-radius: 5px;
+    height: 100%;
+    margin : 20px 5px;
+    height: 15px;
+}
+
+.card-1 .top .top-content .row-1 p:nth-child(1)  {
+    
+    width: 45%;
+}
+
+.card-1 .top .top-content .row-1 p:nth-child(2)
+{
+    width: 20%;
+
+}
+
+.explore-card-container .explore-card-inner .card-1 .top .top-content .row-2{
+    width: 100%;
+    height: 50% ;
+    position: relative;
+    padding: 0px 10px;
+    
+}
+
+.explore-card-container .explore-card-inner .card-1 .top .top-content .row-2 p{
+   
+    display: inline-block;
+    top: 0px;
+    border-radius: 10px;
+    height: 100%;
+    height: 45px;  
+    margin : 0px 8px;
+
+}
+
+.card-1 .top .top-content .row-2 p:nth-child(1)  {
+    
+    width: 50px;
+}
+
+.card-1 .top .top-content .row-2 p:nth-child(2)
+{
+    width: 150px;
+
+}
+
+
+
+
+ /* card-2 */
+
+.explore-card-container .explore-card-inner .card-2 .top{
+
+    height: 70%;
+    width: 100%;
+    background : linear-gradient(#b9f4bc, #8dc63f);
+    border-radius: 20px 20px 0px 0px;
+
+}
+
+
+
+.explore-card-container .explore-card-inner .card-2 .top .top-content .row-1{
+    width: 100%;
+    height: 50%;
+    position: relative;
+    padding: 0px 15px;
+}
+
+
+
+.card-2 .top .top-content .row-1 p{
+    display: inline-block;
+    top: 0px;
+    border-radius: 5px;
+    height: 100%;
+    margin : 20px 5px;
+    height: 15px;
+}
+
+.card-2 .top .top-content .row-1 p:nth-child(1)  {
+    
+    width: 20px;
+}
+
+.card-2 .top .top-content .row-1 p:nth-child(2)
+{
+    width: 80%;
+
+}
+
+.explore-card-container .explore-card-inner .card-2 .top .top-content .row-2{
+    width: 100%;
+    height: 50% ;
+    position: relative;
+    padding: 0px 10px;
+    
+}
+
+.explore-card-container .explore-card-inner .card-2 .top .top-content .row-2 p{
+   
+    display: inline-block;
+    top: 0px;
+    border-radius: 10px;
+    height: 100%;
+    height: 45px;  
+    margin : 0px 8px;
+
+}
+
+.card-2 .top .top-content .row-2 p:nth-child(1)  {
+    
+    width: 100px;
+}
+
+.card-2 .top .top-content .row-2 p:nth-child(2)
+{
+    width: 50px;
+
+}
+
+/* ..................................................................... */
+
+
+
+
+
+
+
+
+
+
+
+/* card - 3 ............................................. */
+
+
+
+.explore-card-container .explore-card-inner .card-3 .top{
+
+    height: 70%;
+    width: 100%;
+    background : linear-gradient(#ffd57f, #ffb601);
+    border-radius: 20px 20px 0px 0px;
+
+}
+
+
+.explore-card-container .explore-card-inner .card-3 .top .top-content .row-1{
+    width: 100%;
+    height: 50%;
+    position: relative;
+    padding: 0px 15px;
+}
+
+
+
+.card-3 .top .top-content .row-1 p{
+    display: inline-block;
+    top: 0px;
+    border-radius: 5px;
+    height: 100%;
+    margin : 20px 5px;
+    height: 15px;
+}
+
+.card-3 .top .top-content .row-1 p:nth-child(1)  {
+    
+    width: 80%;
+}
+
+.card-3 .top .top-content .row-1 p:nth-child(2)
+{
+    width: 20%;
+
+}
+
+.explore-card-container .explore-card-inner .card-3 .top .top-content .row-2{
+    width: 100%;
+    height: 50% ;
+    position: relative;
+    padding: 0px 10px;
+    
+}
+
+.explore-card-container .explore-card-inner .card-3 .top .top-content .row-2 p{
+   
+    display: inline-block;
+    top: 0px;
+    border-radius: 10px;
+    height: 100%;
+    height: 45px;  
+    margin : 0px 8px;
+
+}
+
+.card-3 .top .top-content .row-2 p:nth-child(1)  {
+    
+    width: 100%;
+}
+
+.card-3 .top .top-content .row-2 p:nth-child(2)
+{
+    width: 40px;
+
+}
+
+/* ................................................  */
+
+
+ .top .top-content p {
+    opacity: 0.5 !important;
+    background: #fff !important;
+}
+
+
+.explore-card-container .explore-card-inner .explore-card .bottom p{
+
+    display: inline-block;
+    height: 15px;
+    border-radius: 15px;
+    background-color: #f5f6f8;
+    width: 40%;
+    margin: 40px 20px;
+
+}
+
+
+.explore-card-container .explore-card-inner .explore-card .cards{
+    animation: floating-card 8s ease-in-out infinite;
+}
+
+.explore-card-container .explore-card-inner .explore-card .card-1{
+    animation-delay: 4s;
+
+}
+
+.explore-card-container .explore-card-inner .explore-card .card-1{
+    animation-delay: 1s;
+
+}
+
+.explore-card-container .explore-card-inner .explore-card .card-1{
+    animation-delay: 2s;
+
+}
+
+@keyframes floating-card {
+    
+    0%{
+        transform: translateY(0px) rotateY(350deg);
+
+    }
+    50%{
+        transform: translateY(20px) rotateY(350deg);
+    }
+    100%{
+        transform: translateY(0px) rotateY(350deg);
+
+    }
+}
+
+
+
+
+/*  Hexa Styles */
+
+.hexa-box{
+    width: 40px;
+    height: 60px;
+    /* background-color: yellow; */
+    margin: 10px 0px;
+    position: relative;
+}
+
+.hexa-inner, .hexa-inner::after, .hexa-inner::before {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    border-radius: 10px;
+    transform-origin: center;
+    
+
+}
+
+.hexa-box  .hexa-circle{
+    width: 35px;
+    height:  35px;
+    background-color: white;
+    border-radius: 100%;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.hexa-inner::after{
+    content: "";
+    position: absolute;
+    background: inherit;
+    transform: rotate(-60deg);
+
+}
+
+.hexa-inner::before{
+    content: "";
+    position: absolute;
+    background: inherit;
+    transform: rotate(60deg);
+}
+

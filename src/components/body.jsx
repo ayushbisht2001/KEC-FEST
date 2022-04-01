@@ -22,15 +22,15 @@ export default function Body() {
                    return (
                        
                        <>
-                    <div class="timeline">
+                    <a class="timeline" href = {`#events-${item.id}`}>
                         <span class="icon fa fa-globe"></span>
-                        <p class="timeline-content">
+                        <p class="timeline-content"  >
                             <h3 class="title">{item.title}</h3>
-                            <p class="description">
+                            <p class="description"  >
                                 starts from {item.date} {"  "} {item.time}
                             </p>
                         </p>
-                    </div>
+                    </a>
                 
                
             </>

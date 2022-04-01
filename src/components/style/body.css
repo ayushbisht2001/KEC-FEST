@@ -24,7 +24,9 @@
     border-right: 7px solid #084772;
     border-radius: 0 30px 0 0;
     position: relative;
-    right: -3.5px
+    right: -3.5px;
+    text-decoration: none;
+    display: block;
 }
 
 .main-timeline2 .icon {
