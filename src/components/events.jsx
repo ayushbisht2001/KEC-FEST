@@ -16,9 +16,9 @@ export default function Events(props) {
   } = props.data;
 
   return (
-    <section id={`events-${id}`} style={{ backgroundColor: style.color.bg, color: "white" }} className={`container-fluid event-container ${cls}`}>
+    <section id={`events-${id}`} style={{ backgroundColor: style.color.bg, color: "white" }} className={`container-fluid event-container ${cls}  `}>
       <div className="row p-2 ">
-        <div className=" col-md-12 col-lg-6 left">{left}</div>
+        <div className= {`col-md-12 col-lg-6 left `} >{left}</div>
         <div className=" col-md-12 col-lg-6 right">
           <div className="d-flex flex-column p-3 justify-content-center align-item-center">
             <h2>{title}</h2>
