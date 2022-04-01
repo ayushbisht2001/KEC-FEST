@@ -26,6 +26,17 @@ code {
   --pr_font : 'Rock 3D', cursive;
   --se_font : 'Mulish', sans-serif;
   --pr2_font:'Lora', serif;
+  
+
+
+  /* Colors */
+
+  --bg-color : black;
+  --color-green : #159D8C;
+  --color-pink : #FE74AE;
+  --color-blue : #2476E3;
+  --color-orange : #FC8D14;
+  
 
   
 }
