@@ -19,25 +19,22 @@ code {
 
 *{
 
-
-  --pr_color_header : #00273e;
-  --se_color_header : orangered;
-
   --pr_font : 'Rock 3D', cursive;
   --se_font : 'Mulish', sans-serif;
-  --pr2_font:'Lora', serif;
   
-
+  --pr2_font:'Lora', serif;
+  --fest-font:'Righteous', cursive;
 
   /* Colors */
 
+  --pr-color:#000;
+  --sc-color:#fff;
   --bg-color : black;
+  
   --color-green : #159D8C;
   --color-pink : #FE74AE;
   --color-blue : #2476E3;
   --color-orange : #FC8D14;
-  
-
   
 }
  

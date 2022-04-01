@@ -1,42 +1,71 @@
-
-
-
 .header{
+    background-color: #000;
+    width: 100%;
+    height: 100vh;
+    color:var(--sc-color);
+    text-align: center;
+    z-index: -3;
+}
+.college-name{
+    font-weight: bold;
+    padding: 30px;
+    font-size: 3rem;
+}
 
-    width  : 100%;
-    height : 100vh;
- }
+.header-container{
+    display:flex;
+    width: 70%;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    position: relative;
+    height: calc(100% - 3rem - 90px);
+}
 
- .heading{
-     text-align: center;
-     font-weight: bold;
+.clip{
+    position: absolute;
+    top: 0;
+    right: 0;
+    clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%);
+    background-color: var(--color-green);
+    width: 30%;
+    height: 100%;
+    z-index:-1; 
+}
 
- }
- .header h2 {
-    font-family: var(--pr2_font);
-    color  : white;
+.left-container{
+    flex:1;
+}
+.left-container img{
+    width: 100%;
+}
+.right-container{
+    flex:1;
+}
 
- }
-
- .header h1{
-     font-size: 5rem;
-     color : var(--se_color_header);
+.right-container h1{
+    font-size: 5rem;
     font-family: var(--pr_font);
+    font-weight: bold;
+}
 
- }
+.fest-h1{
+    color:var(--color-pink);
+}
+.fest-h2{
+    color:var(--color-green)
+}
+.fest-h3{
+    color:var(--color-orange)
+}
 
- .logo-box { 
-     height: 300px;
-     display: grid;
-     place-items: center;
- }
+.college-name{
+    font-family: var(--fest-font);
+    color:var(--color-orange)
+}
 
- .content{
-    display: grid;
-    place-items:center;
-    height: auto;
-    color : white;
-    font-size:1.3rem;
- }
-
- 
+.right-container p{
+    font-size: 1.3rem;
+    color: var(--color-blue);
+    margin-top: 20px;    
+}
