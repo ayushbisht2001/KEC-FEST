@@ -1,3 +1,5 @@
+import Idea from "../components/svg/idea"
+
 export  const  Timeline = [
     {   
         id : 1,
@@ -18,8 +20,8 @@ export  const  Timeline = [
             }
         ],
 
-        desc : "The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need ",
-
+        desc : "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi velit non nisi repellendus deleniti magni accusantium, earum tenetur facilis sit, quaerat quasi atque nihil nemo vero, explicabo fugiat odit voluptatibus. Nihil, odit?",
+        cls : "cicada",
 
 
     }, 
@@ -42,7 +44,8 @@ export  const  Timeline = [
             }
         ],
 
-        desc : "The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need ",
+        desc : "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi velit non nisi repellendus deleniti magni accusantium, earum tenetur facilis sit, quaerat quasi atque nihil nemo vero, explicabo fugiat odit voluptatibus. Nihil, odit?",
+        cls : "blind",
 
 
 
@@ -65,7 +68,8 @@ export  const  Timeline = [
             }
         ],
 
-        desc : "The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need ",
+        desc : "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi velit non nisi repellendus deleniti magni accusantium, earum tenetur facilis sit, quaerat quasi atque nihil nemo vero, explicabo fugiat odit voluptatibus. Nihil, odit?",
+        cls : "backtrack",
 
 
 
@@ -88,7 +92,9 @@ export  const  Timeline = [
             }
         ],
 
-        desc : "The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need ",
+        desc : "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi velit non nisi repellendus deleniti magni accusantium, earum tenetur facilis sit, quaerat quasi atque nihil nemo vero, explicabo fugiat odit voluptatibus. Nihil, odit?",
+        cls : "ideathon",
+        left : <Idea />,
 
 
 
@@ -112,7 +118,8 @@ export  const  Timeline = [
             }
         ],
 
-        desc : "The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need ",
+        desc : "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi velit non nisi repellendus deleniti magni accusantium, earum tenetur facilis sit, quaerat quasi atque nihil nemo vero, explicabo fugiat odit voluptatibus. Nihil, odit?",
+        cls : "monkey",
 
 
 
@@ -135,7 +142,8 @@ export  const  Timeline = [
             }
         ],
 
-        desc : "The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need ",
+        desc : "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi velit non nisi repellendus deleniti magni accusantium, earum tenetur facilis sit, quaerat quasi atque nihil nemo vero, explicabo fugiat odit voluptatibus. Nihil, odit?",
+        cls : "logo_design",
 
 
 
@@ -159,7 +167,7 @@ export  const  Timeline = [
             }
         ],
 
-        desc : "The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need ",
+        desc : "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi velit non nisi repellendus deleniti magni accusantium, earum tenetur facilis sit, quaerat quasi atque nihil nemo vero, explicabo fugiat odit voluptatibus. Nihil, odit?",
 
     }, 
 
