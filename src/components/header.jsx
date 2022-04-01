@@ -1,31 +1,11 @@
 import React from "react";
-import "./style/header.scss";
+import "./style/header.css";
 import logo from '../kvlogo.png'
-import Particles from "react-tsparticles";
-import { option } from "./utility/paritcle";
+// import Particles from 'react-particles-js';
 
 export default function Header() {
-  const particlesInit = (main) => {
-    console.log(main);
-
-    // you can initialize the tsParticles instance (main) here, adding custom shapes or presets
-  };
-
-  const particlesLoaded = (container) => {
-    console.log(container);
-  };
-
   return (
     <div className="header">
-      <section className="particle-section">
-        <Particles
-          id="tsparticles"
-          init={particlesInit}
-          loaded={particlesLoaded}
-          options={{ ...option }}
-        />
-      </section>
-
 
       <h2 className="college-name">Bipin Tripathi Kumaon Institute of Technology</h2>
       <div className="header-container">
@@ -40,6 +20,7 @@ export default function Header() {
             <h1 className="fest-h3">2K22</h1>
           </div>
           <p>Fest Start from 18 April to 19 April 2K22</p>
+
         </div>
 
       </div>

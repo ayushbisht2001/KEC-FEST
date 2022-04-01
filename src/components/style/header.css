@@ -4,8 +4,7 @@
     height: 100vh;
     color:var(--sc-color);
     text-align: center;
-    position: relative;
-    z-index: 3;
+    z-index: -3;
 }
 .college-name{
     font-weight: bold;
@@ -19,10 +18,11 @@
     justify-content: center;
     align-items: center;
     margin: auto;
-    /* height: calc(100% - 3rem - 90px); */
+    position: relative;
+    height: calc(100% - 3rem - 90px);
 }
 
-/* .clip{
+.clip{
     position: absolute;
     top: 0;
     right: 0;
@@ -31,7 +31,7 @@
     width: 30%;
     height: 100%;
     z-index:-1; 
-} */
+}
 
 .left-container{
     flex:1;
@@ -61,31 +61,11 @@
 
 .college-name{
     font-family: var(--fest-font);
-    color:#28d2f7;
+    color:var(--color-orange)
 }
 
 .right-container p{
     font-size: 1.3rem;
     color: var(--color-blue);
     margin-top: 20px;    
-}
-
-
-.particle-section{
-    position: absolute !important;
-    z-index: 0;
-    height: 100vh;
-    width: 100%;
-    #tsparticles{
-        width: 100%;
-        height: 100%;
-        canvas{
-            width: 100%;
-            height: 100%;
-        }
-    }
-}
-.particle-section #tsparticles canvas{
-    position: relative !important;
-
 }
