@@ -31,8 +31,7 @@ export default function Body() {
                                                                     starts from {item.date} {"  "},  {item.time}
                                                                 </p>
                                                             </p>
-                                                        </p>
-                                                    </div>
+                                                        </a>
 
 
                                                 </>
