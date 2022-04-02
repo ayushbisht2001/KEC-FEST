@@ -10,7 +10,7 @@ export default function Body() {
 
     return (
         <>
-            <div class="container-fluid bg-dark ">
+            <div  style={{ fontFamily: "Cabin, sans-serif" }} class="container-fluid bg-dark ">
                 <div className="events">
                     <h1 >Events</h1>
                     <div class="row ">
@@ -31,15 +31,19 @@ export default function Body() {
                                                                     starts from {item.date} {"  "},  {item.time}
                                                                 </p>
                                                             </p>
-                                                        </a>
-                                                    </>
-                                                )
-                                            })
-                                        }
-                                    </div>
+                                                        </p>
+                                                    </div>
+
+
+                                                </>
+                                            )
+                                        })
+                                    }
                                 </div>
                             </div>
                         </div>
+
+
                     </div>
                 </div>
             </div>

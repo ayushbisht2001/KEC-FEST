@@ -9,6 +9,7 @@ body {
   box-sizing: border-box;
   font-size: 62.5%;
   scroll-behavior: smooth;
+  overflow: visible;
 }
 
 code {
@@ -21,7 +22,11 @@ code {
 *{
 
   --pr_font : 'Rock 3D', cursive;
-  --se_font :  'Robot';
+  /* --se_font :  'BIZ UDMincho', serif; */
+  --se_font :  'Cabin', sans-serif;
+  /* --se_font :  'Baloo 2', cursive; */
+  /* --se_font :  'Fredoka One', cursive; */
+
   
   --pr2_font:'Lora', serif;
   --fest-font:'Righteous', cursive;

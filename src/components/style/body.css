@@ -1,7 +1,8 @@
 .main-timeline2 {
     padding-top: 50px;
     overflow: hidden;
-    position: relative
+    position: relative;
+    
 }
 
 .main-timeline2:before {
