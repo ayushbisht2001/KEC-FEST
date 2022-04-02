@@ -68,12 +68,22 @@
 
     background: var(--color-dark);
     
+    #bulb-1, #bulb-2, #bulb-2{
+        animation: twinkle 4s  2s infinite forward ;
+    }
+    #bulb-2{
+        animation-delay: 4s  ;
+    }
+    #bulb-3{
+        animation-delay: 6s;
+    }
     .left {
 
         .light path{
             fill : transparent;
         }    
          .flash path:hover {
+             
         }    
         .bulb:hover .flash path, .bulb:hover .light path {
             fill :#EE9620;
@@ -86,6 +96,14 @@
         h2{
             color : white;
         }
+    }
+
+    @keyframes twinkle {
+
+        from{
+
+        }
+        
     }
 
 }
