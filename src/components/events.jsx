@@ -25,14 +25,14 @@ export default function Events(props) {
           <div className="d-flex flex-column p-3 justify-content-center align-item-center">
             <h2>{title}</h2>
 
-            <pre className="mt-2 time">
+            <pre className="mt-2 time" style = {{ color : style.color.secondary}}>
               {" "}
               {date},&nbsp;{time}{" "}
             </pre>
             <pre className="venue"> At {venue} </pre>
             <p className="desc">{desc}</p>
             <div className=" cord-block d-block">
-              <p> Coordinators :  </p>
+              <p style = {{ color : style.color.primary }} > Coordinators</p>
               <ul className="cord">
                 {coordinators &&
                   coordinators.map((co) => (

@@ -30,9 +30,9 @@ export const Timeline = [
         left: <Cicada />,
         style: {
             color: {
-                "bg": "black",
-                "primary": "",
-                "secondary": "",
+                "bg": "#000",
+                "primary": "rgba(112, 106, 106, 0.861)",
+                "secondary": "rgba(82, 71, 71, 0.886)",
                 "tertiary": "",
             }
         },
@@ -70,8 +70,8 @@ export const Timeline = [
         style: {
             color: {
                 "bg": "#159D8C",
-                "primary": "",
-                "secondary": "",
+                "primary": "#93f9ed",
+                "secondary": "#93f9ed",
                 "tertiary": "",
             }
         },
@@ -107,8 +107,8 @@ export const Timeline = [
         style: {
             color: {
                 "bg": "#FE74AE",
-                "primary": "",
-                "secondary": "",
+                "primary": "#b71c1c",
+                "secondary": "#b71c1c",
                 "tertiary": "",
             }
         },
@@ -146,8 +146,8 @@ export const Timeline = [
         style: {
             color: {
                 "bg": "#2476E3",
-                "primary": "",
-                "secondary": "",
+                "primary": "#EE9620",
+                "secondary": "#EE9620",
                 "tertiary": "",
             }
         },
@@ -186,8 +186,8 @@ export const Timeline = [
         style: {
             color: {
                 "bg": "#FC8D14",
-                "primary": "",
-                "secondary": "",
+                "primary": "#000",
+                "secondary": "#000",
                 "tertiary": "",
             }
         },
@@ -222,9 +222,9 @@ export const Timeline = [
         left: <LogoDesign />,
         style: {
             color: {
-                "bg": "black",
-                "primary": "",
-                "secondary": "",
+                "bg": "#000",
+                "primary": "silver",
+                "secondary": "grey",
                 "tertiary": "",
             }
         },
@@ -261,8 +261,8 @@ export const Timeline = [
 
             color: {
                 "bg": "#159D8C",
-                "primary": "",
-                "secondary": "",
+                "primary": "#30CEF1",
+                "secondary": "#7FC468",
                 "tertiary": "",
             }
         },
