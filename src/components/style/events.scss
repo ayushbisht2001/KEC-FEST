@@ -91,27 +91,36 @@
 
     background: var(--color-dark);
     
-    #bulb-1, #bulb-2, #bulb-2{
-        animation: twinkle 4s  2s infinite forward ;
+    // #bulb-1, #bulb-2, #bulb-2{
+    // border: 1px solid black;
+    //     animation: twinkle 4s  2s infinite forward ;
+    // }
+    #bulb-2 .light path, #bulb-2 .flash path{
+        animation-delay: 2s   !important;
+        animation-duration: 4s;
     }
-    #bulb-2{
-        animation-delay: 4s  ;
-    }
-    #bulb-3{
-        animation-delay: 6s;
+    #bulb-3  .light path, #bulb-3 .flash path{
+        animation-delay:  4s !important  ;
+        animation-duration: 2s;
     }
     .left {
 
+
         .light path{
             fill : transparent;
+             animation: twinkle 3s  infinite  ;
+
         }    
-         .flash path:hover {
-             
+         .flash path  {
+            animation: twinkle 3s   infinite  ;
+            filter : drop-shadow(4px 4px 10px rgba(255, 255, 255, 0.587))
+
         }    
         .bulb:hover .flash path, .bulb:hover .light path {
-            fill :#EE9620;
+            fill :#ee9520bd;
 
         }
+        
 
     }
 
@@ -123,7 +132,11 @@
 
     @keyframes twinkle {
 
-        from{
+        0%{   
+            fill : transparent; 
+        }
+        20%{
+            fill :#EE9620;
 
         }
         
@@ -243,4 +256,17 @@
 
 }
      
+
+
 }
+
+
+.blind{
+
+  svg{
+      transform: scale(1.7);
+  }
+
+}
+
+ 

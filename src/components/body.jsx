@@ -23,6 +23,7 @@ export default function Body() {
                                             Timeline && Timeline.map(item => {
                                                 return (
                                                     <>
+                                                    
                                                         <a class="timeline" href={`#events-${item.id}`}>
                                                             <span class="icon fa fa-globe"></span>
                                                             <p class="timeline-content"  >
