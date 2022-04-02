@@ -28,7 +28,7 @@ export default function Body() {
                                                             <p class="timeline-content"  >
                                                                 <h3 class="title">{item.title}</h3>
                                                                 <p class="description"  >
-                                                                    starts from {item.date} {"  "} {item.time}
+                                                                    starts from {item.date} {"  "},  {item.time}
                                                                 </p>
                                                             </p>
                                                         </a>
