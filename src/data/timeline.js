@@ -35,7 +35,13 @@ export const Timeline = [
                 "secondary": "",
                 "tertiary": "",
             }
-        }
+        },
+        hexas : [
+            "green",
+            "green",
+            "green",
+            
+        ]
 
 
     },
@@ -68,7 +74,13 @@ export const Timeline = [
                 "secondary": "",
                 "tertiary": "",
             }
-        }
+        },
+        hexas : [
+            "golden",
+            "golden",
+            "golden",
+            
+        ]
 
     }, {
         id: 3,
@@ -99,7 +111,13 @@ export const Timeline = [
                 "secondary": "",
                 "tertiary": "",
             }
-        }
+        },
+        hexas : [
+            "yellow",
+            "yellow",
+            "yellow",
+            
+        ]
 
 
 
@@ -132,7 +150,13 @@ export const Timeline = [
                 "secondary": "",
                 "tertiary": "",
             }
-        }
+        },
+        hexas : [
+            "blue",
+            "blue",
+            "blue",
+            
+        ]
 
 
 
@@ -166,7 +190,13 @@ export const Timeline = [
                 "secondary": "",
                 "tertiary": "",
             }
-        }
+        },
+        hexas : [
+            "silver",
+            "silver",
+            "silver",
+            
+        ]
 
     }, {
         id: 6,
@@ -197,7 +227,13 @@ export const Timeline = [
                 "secondary": "",
                 "tertiary": "",
             }
-        }
+        },
+        hexas : [
+            "green",
+            "green",
+            "green",
+            
+        ]
     },
     {
         id: 7,
@@ -229,7 +265,13 @@ export const Timeline = [
                 "secondary": "",
                 "tertiary": "",
             }
-        }
+        },
+        hexas : [
+            "silver",
+            "silver",
+            "silver",
+            
+        ]
     },
 
 ]

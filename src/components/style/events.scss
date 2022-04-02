@@ -3,6 +3,27 @@
     width: 100%;
     height: 100vh;
     scroll-snap-align: start;  
+    position: relative;
+    .row{
+        height: 100%;
+    }
+    .hexa-box:nth-child(4){
+        top : 0px;
+        left : 5%;
+        transform: scale(5);
+
+    }
+    .hexa-box:nth-child(2){
+        right :5%;
+        transform: scale(8);
+        bottom : 40%;
+    }
+    .hexa-box:nth-child(3){
+        left : 40%;
+        transform: scale(3);
+        bottom : 20%;
+    }
+ 
 
 }
 
@@ -161,12 +182,27 @@
 
 @media (max-width : 1000px) {
 
+    .event-container{
+
+        .hexa-box:nth-child(2){
+            transform: scale(4);
+        }
+
+        .hexa-box:nth-child(3){
+            transform: scale(2);
+        }
+        .hexa-box:nth-child(4){
+            transform: scale(2);
+        }
+    }
     .left{
         display: none !important;
     }  
   
 .right{
-
+    display: grid;
+    justify-content: center;
+    align-items: center;
     h2{
         font-size: 2rem;
     }
