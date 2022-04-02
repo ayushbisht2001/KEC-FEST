@@ -37,9 +37,9 @@ export const Timeline = [
             }
         },
         hexas : [
-            "green",
-            "green",
-            "green",
+            "silver",
+            "silver",
+            "silver",
             
         ]
 
@@ -76,9 +76,9 @@ export const Timeline = [
             }
         },
         hexas : [
-            "golden",
-            "golden",
-            "golden",
+            "mint",
+            "mint",
+            "mint",
             
         ]
 
@@ -113,9 +113,9 @@ export const Timeline = [
             }
         },
         hexas : [
-            "yellow",
-            "yellow",
-            "yellow",
+            "red",
+            "red",
+            "red",
             
         ]
 
@@ -229,9 +229,9 @@ export const Timeline = [
             }
         },
         hexas : [
-            "green",
-            "green",
-            "green",
+            "silver",
+            "silver",
+            "silver",
             
         ]
     },
@@ -267,9 +267,9 @@ export const Timeline = [
             }
         },
         hexas : [
-            "silver",
-            "silver",
-            "silver",
+            "mint",
+            "mint",
+            "mint",
             
         ]
     },
