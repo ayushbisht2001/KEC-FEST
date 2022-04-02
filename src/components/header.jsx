@@ -1,14 +1,14 @@
 import React from "react";
 import "./style/header.scss";
 import logo from '../kvlogo.png'
-import Particles from "react-tsparticles";
+// import Particles from "react-tsparticles";
 import { option } from "./utility/paritcle";
 
 export default function Header() {
+
   const particlesInit = (main) => {
     console.log(main);
 
-    // you can initialize the tsParticles instance (main) here, adding custom shapes or presets
   };
 
   const particlesLoaded = (container) => {
@@ -18,12 +18,12 @@ export default function Header() {
   return (
     <div className="header">
       <section className="particle-section">
-        <Particles
+        {/* <Particles
           id="tsparticles"
           init={particlesInit}
           loaded={particlesLoaded}
           options={{ ...option }}
-        />
+        /> */}
       </section>
 
 

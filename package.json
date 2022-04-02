@@ -1,6 +1,6 @@
 {
   "name": "kecu-fest",
-  "homepage": "http://ayushbisht2001.github.io/KEC-FEST/",
+  "homepage": "https://ayushbisht2001.github.io/KEC-FEST/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -9,6 +9,7 @@
     "@testing-library/user-event": "^13.5.0",
     "fullpage.js": "^3.1.2",
     "gh-pages": "^3.2.3",
+    "history": "^5.3.0",
     "node-sass": "^7.0.1",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
