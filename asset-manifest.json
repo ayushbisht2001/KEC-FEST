@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.462da598.css",
-    "main.js": "/static/js/main.042a9b20.js",
+    "main.js": "/static/js/main.c67820a6.js",
     "static/js/787.a4c5d95c.chunk.js": "/static/js/787.a4c5d95c.chunk.js",
     "static/media/logo-design.png": "/static/media/logo-design.3eeb3f91e95317610bfd.png",
     "static/media/kvlogo.png": "/static/media/kvlogo.6068e22265391abb24eb.png",
     "index.html": "/index.html",
     "main.462da598.css.map": "/static/css/main.462da598.css.map",
-    "main.042a9b20.js.map": "/static/js/main.042a9b20.js.map",
+    "main.c67820a6.js.map": "/static/js/main.c67820a6.js.map",
     "787.a4c5d95c.chunk.js.map": "/static/js/787.a4c5d95c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.462da598.css",
-    "static/js/main.042a9b20.js"
+    "static/js/main.c67820a6.js"
   ]
 }
