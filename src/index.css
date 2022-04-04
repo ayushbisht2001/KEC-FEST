@@ -10,7 +10,7 @@ body {
   font-size: 62.5%;
   scroll-behavior: smooth;
   overflow: visible;
-  transform-box: fill-box;
+  transform-box: fill-box !important;
   transform-origin: center; 
 }
 

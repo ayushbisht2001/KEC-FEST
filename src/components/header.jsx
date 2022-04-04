@@ -48,8 +48,8 @@ export default function Header() {
         </div>
 
       </div> */}
-
-      <p>Fest Start from 18 April to 19 April 2K22</p>
+      {/* 
+      <p>Fest Start from 18 April to 19 April 2K22</p> */}
 
     </div>
   );
