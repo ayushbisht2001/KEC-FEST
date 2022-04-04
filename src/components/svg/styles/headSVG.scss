@@ -2,19 +2,12 @@
 
 
     svg {
-
-        #logo{
-                #logo-inner{
-
-
-                    #right-brace{
-                    
-
-                       
-                    }
-
-                }
-        }
+        height: 100% !important;
+        width: 100% !important; 
+        box-sizing: border-box !important;    
+        transform-box: fill-box;
+        transform-origin: center; 
+ 
 
 
     }
@@ -22,8 +15,105 @@
 
 }
 
-#r-bot{
-    transform-box: border-box;
-    transform-origin: center;
-    transform: rotateZ(180deg);
+
+
+
+#r-bot {
+    box-sizing: border-box !important;    
+    transform-box: fill-box;
+    transform-origin: center; 
+    transition-delay: 2s;
+    animation: logo-pos-1 10s 2s ease-in-out infinite ;
+}
+
+#r-top{
+    box-sizing: border-box !important;    
+    transform-box: fill-box;
+    transform-origin: center; 
+    transition-delay: 2s;
+    animation: logo-pos-2 10s 2s ease-in-out infinite ;
+}
+
+#logo-text path, #logo-strips path{
+    box-sizing: border-box !important;    
+    transform-box: fill-box;
+    transform-origin: center; 
+    animation: text-ani 10s 2s ease-in-out infinite;
+    transition-delay: 1s;
+}
+
+#l-bot, #l-top{
+    transition-delay: 2s;
+    animation: logo-pos-3 10s 2s  ease-in-out infinite ;
+
+}
+
+@keyframes text-ani {
+    0%{
+    }
+
+   20%{
+    fill : transparent;
+    stroke: transparent;
+        
+    }
+    90%{
+        fill : transparent;
+    stroke: transparent;
+
+    }
+     
+    
+}
+
+@keyframes logo-pos-1 {
+
+    0%{
+
+    }
+    50%{
+        transform:  translate(-900px, -10px) rotate(-40deg);
+    
+
+    }
+    100%{
+
+    }
+    
+}
+
+@keyframes logo-pos-2 {
+
+    0%{
+
+    }
+
+    50%{
+    transform:  translate(-913px, -10px) rotate(37deg);
+
+    }
+    100%{
+    transform: none;
+
+    }
+    
+}
+@keyframes logo-pos-3 {
+
+   
+    0%{
+
+    }
+
+    50%{
+        transform: translate(424px, -53px) ;
+
+
+    }
+    100%{
+    transform: none;
+
+    }
+    
+    
 }

@@ -18,14 +18,14 @@ export default function Header() {
 
   return (
     <div className="header">
-      <section className="particle-section">
+      {/* <section className="particle-section">
         <Particles
           id="tsparticles"
           init={particlesInit}
           loaded={particlesLoaded}
           options={{ ...option }}
         />
-      </section>
+      </section> */}
       <div className="header-container">
         <Head />
       </div>
