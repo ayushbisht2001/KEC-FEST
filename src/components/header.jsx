@@ -3,6 +3,7 @@ import "./style/header.scss";
 import logo from '../kvlogo.png'
 import Particles from "react-tsparticles";
 import { option } from "./utility/paritcle";
+import Head from "./svg/head";
 
 export default function Header() {
 
@@ -25,9 +26,13 @@ export default function Header() {
           options={{ ...option }}
         />
       </section>
+      <div className="header-container">
+        <Head />
+      </div>
 
 
-      <h2 className="college-name">Bipin Tripathi Kumaon Institute of Technology</h2>
+
+      {/* <h2 className="college-name">Bipin Tripathi Kumaon Institute of Technology</h2>
       <div className="header-container">
         <div className="left-container">
           <img src={logo} alt="Fest-logo" />
@@ -42,7 +47,7 @@ export default function Header() {
           <p>Fest Start from 18 April to 19 April 2K22</p>
         </div>
 
-      </div>
+      </div> */}
 
     </div>
   );
