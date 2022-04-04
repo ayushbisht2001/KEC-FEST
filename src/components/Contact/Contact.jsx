@@ -34,19 +34,19 @@ function Contact() {
                     <h1 className="c-title">Let's discuss about Kaivalya</h1>
                     <div className="c-info">
                         <div className="c-info-item">
-                            <img src={`${process.env.PUBLIC_URL}/image/phone.png`} alt="" className="c-icon" />
+                            <a href="https://kecua.ac.in/contact-us/" target="_blank" ><img src={`${process.env.PUBLIC_URL}/image/phone.png`} alt="" className="c-icon" /> </a>
                             +91 5966-244250
                         </div>
                     </div>
                     <div className="c-info">
                         <div className="c-info-item">
-                            <img src={`${process.env.PUBLIC_URL}/image/email.png`} alt="" className="c-icon" />
+                            <a href="https://kecua.ac.in/contact-us/" target="_blank" ><img src={`${process.env.PUBLIC_URL}/image/email.png`} alt="" className="c-icon" /></a>
                             director@kecua.ac.in
                         </div>
                     </div>
                     <div className="c-info">
                         <div className="c-info-item">
-                            <img src={`${process.env.PUBLIC_URL}/image/address.png`} alt="" className="c-icon" />
+                            <a href="https://kecua.ac.in/" target="_blank" ><img src={`${process.env.PUBLIC_URL}/image/address.png`} alt="" className="c-icon" /> </a>
                             BTKIT, Dwarahat
                         </div>
                     </div>

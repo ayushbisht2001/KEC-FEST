@@ -1,0 +1,17 @@
+.footer{
+    background-color: var(--color-green);
+    padding: 20px;
+    font-size: 1.2rem;
+    color: #fff;
+    text-align: center;
+
+}
+
+.footer img{
+    width: 32px;
+    height: 32px;
+}
+
+.footer a{
+    margin: 0 10px;
+}

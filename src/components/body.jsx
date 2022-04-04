@@ -1,16 +1,34 @@
 import React from 'react'
 import './style/body.css'
+import "./style/header.scss";
 import { Timeline } from '../data/timeline.js'
+
+import Particles from "react-tsparticles";
+import { option } from "./utility/paritcle";
 
 export default function Body() {
 
-    //   const [state, setstate] = useState([]);
+    const particlesInit = (main) => {
+        console.log(main);
 
+    };
 
+    const particlesLoaded = (container) => {
+        console.log(container);
+    };
 
     return (
         <>
-            <div  style={{ fontFamily: "Cabin, sans-serif" }} class="container-fluid bg-dark ">
+            <div style={{ fontFamily: "Cabin, sans-serif" }} class="container-fluid bg-dark ">
+                <section className="particle-section">
+                    <Particles
+                        id="tsparticles"
+                        init={particlesInit}
+                        loaded={particlesLoaded}
+                        options={{ ...option }}
+                    />
+                </section>
+
                 <div className="events">
                     <h1 >Events</h1>
                     <div class="row ">
@@ -23,7 +41,7 @@ export default function Body() {
                                             Timeline && Timeline.map(item => {
                                                 return (
                                                     <>
-                                                    
+
                                                         <a class="timeline" href={`#events-${item.id}`}>
                                                             <span class="icon fa fa-globe"></span>
                                                             <p class="timeline-content"  >
@@ -35,21 +53,22 @@ export default function Body() {
                                                         </a>
 
 
-                                                </>
-                                            )
-                                        })
-                                    }
+                                                    </>
+                                                )
+                                            })
+                                        }
+                                    </div>
                                 </div>
                             </div>
+
+
                         </div>
-
-
                     </div>
                 </div>
             </div>
-            </div>
 
         </>
-    )}
+    )
+}
 
 
