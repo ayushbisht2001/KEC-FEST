@@ -72,17 +72,20 @@
     }
 }
 
-#stack-1 path, #stack-2 path{
+#stack-1 path, #stack-2 path, #html-strips path,  #web-strips path{
     animation: stack-flow 2s ease-in-out infinite;
 }
+
+
 
 @for $i from 1 through 10 {
     $time : $i * 0.1;
 
     
-    #stack-1 path:nth-child(#{$i}), #stack-2 path:nth-child(#{$i}){
+    #stack-1 path:nth-child(#{$i}), #stack-2 path:nth-child(#{$i}), #html-strips path:nth-child(#{$i}), #web-strips path:nth-child(#{$i}){
         animation-delay: #{$time}s;
-    }   
+    } 
+  
     
     }
 

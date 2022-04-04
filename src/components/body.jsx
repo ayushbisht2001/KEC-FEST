@@ -24,14 +24,14 @@ export default function Body() {
                     '#2b2b3f'
             }} class="container-fluid " >
                 <hr />
-                <section className="particle-section">
+                {/* <section className="particle-section">
                     <Particles
                         id="tsparticles"
                         init={particlesInit}
                         loaded={particlesLoaded}
                         options={{ ...option }}
                     />
-                </section>
+                </section> */}
 
                 <div className="events">
                     <h1 >Events</h1>
