@@ -46,7 +46,64 @@
     transition-delay: 2s;
     animation: logo-pos-3 10s 2s  ease-in-out infinite ;
 
+
 }
+
+
+#leaf g path{
+    box-sizing: border-box !important;    
+    transform-box: fill-box;
+    transform-origin: bottom; 
+    animation : head-leaf 2s ease-in-out infinite
+}
+#leaf g path:nth-child(2n+1){
+    animation-delay: 1s;
+}
+#eyes path{
+    box-sizing: border-box !important;    
+    transform-box: fill-box;
+    transform-origin: bottom; 
+    animation: boy-eye 1s ease-in-out infinite;
+}
+
+@keyframes boy-eye {
+    50%{
+        transform: scale(1.1);
+    }
+}
+
+#stack-1 path, #stack-2 path{
+    animation: stack-flow 2s ease-in-out infinite;
+}
+
+@for $i from 1 through 10 {
+    $time : $i * 0.1;
+
+    
+    #stack-1 path:nth-child(#{$i}), #stack-2 path:nth-child(#{$i}){
+        animation-delay: #{$time}s;
+    }   
+    
+    }
+
+
+@keyframes stack-flow {
+    
+    50%{
+        fill: none;
+
+    }
+}
+
+
+@keyframes head-leaf {
+   
+    50%{
+        transform: rotate(10deg);
+
+    }
+}
+
 
 @keyframes text-ani {
     0%{
