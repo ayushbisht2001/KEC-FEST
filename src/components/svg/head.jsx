@@ -444,6 +444,7 @@ const Head = () => {
 </linearGradient>
 </defs>
     </svg>
+
   );
 };
 

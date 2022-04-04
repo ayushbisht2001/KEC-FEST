@@ -4,6 +4,8 @@ import Body from './components/body';
 import { Timeline } from './data/timeline';
 import Events from './components/events';
 import Contact from './components/Contact/Contact';
+import Footer from './components/footer'
+
 
 function App() {
   return (
@@ -23,6 +25,7 @@ function App() {
         }
       </div>
       <Contact />
+      <Footer />
     </div>
   );
 }
