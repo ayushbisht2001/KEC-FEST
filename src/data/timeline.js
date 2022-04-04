@@ -36,11 +36,11 @@ export const Timeline = [
                 "tertiary": "",
             }
         },
-        hexas : [
+        hexas: [
             "silver",
             "silver",
             "silver",
-            
+
         ]
 
 
@@ -75,11 +75,11 @@ export const Timeline = [
                 "tertiary": "",
             }
         },
-        hexas : [
+        hexas: [
             "mint",
             "mint",
             "mint",
-            
+
         ]
 
     }, {
@@ -112,11 +112,11 @@ export const Timeline = [
                 "tertiary": "",
             }
         },
-        hexas : [
+        hexas: [
             "red",
             "red",
             "red",
-            
+
         ]
 
 
@@ -151,11 +151,11 @@ export const Timeline = [
                 "tertiary": "",
             }
         },
-        hexas : [
+        hexas: [
             "blue",
             "blue",
             "blue",
-            
+
         ]
 
 
@@ -191,11 +191,11 @@ export const Timeline = [
                 "tertiary": "",
             }
         },
-        hexas : [
+        hexas: [
             "silver",
             "silver",
             "silver",
-            
+
         ]
 
     }, {
@@ -228,11 +228,11 @@ export const Timeline = [
                 "tertiary": "",
             }
         },
-        hexas : [
+        hexas: [
             "silver",
             "silver",
             "silver",
-            
+
         ]
     },
     {
@@ -266,11 +266,11 @@ export const Timeline = [
                 "tertiary": "",
             }
         },
-        hexas : [
+        hexas: [
             "mint",
             "mint",
             "mint",
-            
+
         ]
     },
 
