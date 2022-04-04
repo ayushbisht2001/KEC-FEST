@@ -81,17 +81,27 @@
     color:#28d2f7;
 }
 
-.right-container p{
+// .right-container p{
+//     font-size: 1.3rem;
+//     color: var(--color-blue);
+//     margin-top: 20px;    
+
+// }
+.header p{
     font-size: 1.3rem;
-    color: var(--color-blue);
-    margin-top: 20px;    
+    color: var(--color-blue); 
+    position: absolute;
+    bottom: 300;
+    right: 0;
+
+
 }
 
 
 .particle-section{
     position: absolute !important;
     z-index: 4;
-    height: 282vh;
+    height:282vh;
     width: 100%;
     #tsparticles{
         width: 100%;

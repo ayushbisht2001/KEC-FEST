@@ -19,7 +19,11 @@ export default function Body() {
 
     return (
         <>
-            <div style={{ fontFamily: "Cabin, sans-serif" }} class="container-fluid bg-dark ">
+            <div style={{
+                fontFamily: "Cabin, sans-serif", background:
+                    '#2b2b3f'
+            }} class="container-fluid " >
+                <hr />
                 <section className="particle-section">
                     <Particles
                         id="tsparticles"

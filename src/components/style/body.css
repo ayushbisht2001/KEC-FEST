@@ -5,6 +5,13 @@
     
 }
 
+hr{
+    /* width: 2px; */
+    margin: 0;
+    color: rgb(119, 119, 119);
+
+}
+
 .main-timeline2:before {
     content: "";
     width: 7px;
