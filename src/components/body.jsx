@@ -3,19 +3,8 @@ import './style/body.css'
 import "./style/header.scss";
 import { Timeline } from '../data/timeline.js'
 
-import Particles from "react-tsparticles";
-import { option } from "./utility/paritcle";
-
 export default function Body() {
 
-    const particlesInit = (main) => {
-        console.log(main);
-
-    };
-
-    const particlesLoaded = (container) => {
-        console.log(container);
-    };
 
     return (
         <>
@@ -24,15 +13,6 @@ export default function Body() {
                     '#2b2b3f'
             }} class="container-fluid " >
                 <hr />
-                <section className="particle-section">
-                    <Particles
-                        id="tsparticles"
-                        init={particlesInit}
-                        loaded={particlesLoaded}
-                        options={{ ...option }}
-                    />
-                </section>
-
                 <div className="events">
                     <h1 >Events</h1>
                     <div class="row ">
