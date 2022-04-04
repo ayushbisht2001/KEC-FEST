@@ -3,6 +3,7 @@ import Header from './components/header';
 import Body from './components/body';
 import { Timeline } from './data/timeline';
 import Events from './components/events';
+import Contact from './components/Contact/Contact';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
 
         }
       </div>
+      <Contact />
     </div>
   );
 }
