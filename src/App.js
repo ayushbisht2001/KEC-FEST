@@ -9,7 +9,7 @@ import Footer from './components/footer'
 
 function App() {
   return (
-    <div className='container-fluid p-0 m-0 overflow-hidden'>
+    <div className='container-fluid p-0 m-0 overflow-hidden' style ={{background : "#2B2B3F"}} >
 
 
       <Header />

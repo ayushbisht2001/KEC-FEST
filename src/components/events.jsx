@@ -21,7 +21,6 @@ export default function Events(props) {
   } = props.data;
 
   return (
-    <div>
       <section id={`events-${id}`} style={{ backgroundColor: style.color.bg, color: "white" }} className={`container-fluid event-container ${cls}  `}>
         <div className="row   " style={{ zIndex: '2' }}>
           <div className={`col-md-12 col-lg-6 left ${id % 2 ? "order-first" : "order-last"}`} style={{ zIndex: '3' }} >{left}</div>
@@ -64,6 +63,5 @@ export default function Events(props) {
           })
         }
       </section>
-    </div>
   );
 }

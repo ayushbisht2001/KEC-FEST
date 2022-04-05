@@ -5,6 +5,7 @@ import "./style/header.scss";
 import Particles from "react-tsparticles";
 import { option } from "./utility/paritcle";
 import Head from "./svg/head";
+import { Hexa } from "./svg/hexa"
 
 export default function Header() {
 
@@ -37,21 +38,45 @@ export default function Header() {
         <i class="fas fa-angle-up"></i>
       </div>}
 
-      <section className="particle-section">
-        <Particles
-          id="tsparticles"
-          init={particlesInit}
-          loaded={particlesLoaded}
-          options={{ ...option }}
-        />
-      </section>
-      <div className="header-container">
-        <Head />
-      </div>
+      <div className="header position-relative">
+        <section className='container-fluid position-absolute' style={{ width: "100%", height: "100vh" }}>
+          {
+            ["mint", "silver", "yellow", "blue"].map(cls => {
+              return (
+                <Hexa
+                  hexaBoxStyle={{
+                    position: "absolute",
+                    opacity: '0.4',
+                    zIndex: '1'
+                  }}
+                  color={cls}
+                />
+              )
+            })
+          }
+        </section>
+        <div className="head-clg-name">
+          <h2>BTKIT</h2>
+          <span>Dwarahat</span>
+        </div>
+
+        <section className="particle-section">
+          <Particles
+            id="tsparticles"
+            init={particlesInit}
+            loaded={particlesLoaded}
+            options={{ ...option }}
+          />
+        </section>
+        <div className="header-container position-relative">
+          <Head />
+
+        </div>
 
 
 
-      {/* <h2 className="college-name">Bipin Tripathi Kumaon Institute of Technology</h2>
+
+        {/* <h2 className="college-name">Bipin Tripathi Kumaon Institute of Technology</h2>
       <div className="header-container">
         <div className="left-container">
           <img src={logo} alt="Fest-logo" />
@@ -67,9 +92,11 @@ export default function Header() {
         </div>
 
       </div> */}
-      {/* 
+        {/* 
       <p>Fest Start from 18 April to 19 April 2K22</p> */}
 
+
+      </div>
     </div>
   );
 }

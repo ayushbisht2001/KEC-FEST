@@ -8,7 +8,7 @@ const hexaVariant = {
     blue: "linear-gradient(to bottom right, #4fc3f7 0%, #2196f3 100%)",
     mint: "linear-gradient(to bottom right, #4db6ac 0%, #00796b 100%)",
     red: "linear-gradient(to bottom right, #f4511e 0%, #b71c1c 100%)"
-
+    ,purple: "linear-gradient(to bottom right, #1E1230 0%, #1E1230 100%)"
 }
 
 const iconVariant = {
@@ -18,7 +18,8 @@ const iconVariant = {
     silver: " #bdbdbd",
     blue: " #2196f3",
     mint: " #00796b",
-    red: "#b71c1c"
+    red: "#b71c1c",
+    
 
 }
 
@@ -30,14 +31,15 @@ export const Hexa = (props) => {
         icon = false,
         hexaBoxStyle = {},
         hexaInnerStyle = {},
-        hexaCircleStyle = {}
+        hexaCircleStyle = {},
+        hexaClass,
 
 
     } = props;
 
     return (
 
-        <div className="hexa-box" style={hexaBoxStyle} >
+        <div className={`hexa-box  `}style={hexaBoxStyle} >
             <div className="hexa-inner"
                 style={{
                     background: hexaVariant[color],

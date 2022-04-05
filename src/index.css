@@ -23,7 +23,8 @@ code {
 
 *{
 
-  --pr_font : 'Rock 3D', cursive;
+  /* --pr_font : 'Rock 3D', cursive; */
+  --pr_font : 'Ananda','Namaste',Regular
   /* --se_font :  'BIZ UDMincho', serif; */
   --se_font :  'Cabin', sans-serif;
   /* --se_font :  'Baloo 2', cursive; */

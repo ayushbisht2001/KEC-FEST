@@ -10,8 +10,8 @@ export default function Body() {
         <>
             <div style={{
                 fontFamily: "Cabin, sans-serif", background:
-                    '#2b2b3f'
-            }} class="container-fluid " >
+                    'transparent',zIndex : "6"
+            }} className="container-fluid position-relative" >
                 <hr />
                 <div className="events">
                     <h1 >Events</h1>
