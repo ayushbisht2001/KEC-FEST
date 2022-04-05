@@ -4,6 +4,7 @@ import logo from '../kvlogo.png'
 import Particles from "react-tsparticles";
 import { option } from "./utility/paritcle";
 import Head from "./svg/head";
+import {Hexa} from "./svg/hexa"
 
 export default function Header() {
 
@@ -17,7 +18,28 @@ export default function Header() {
   };
 
   return (
-    <div className="header">
+    <div className="header position-relative">
+      <section className='container-fluid position-absolute' style={{ width : "100%", height : "100vh"}}>
+      {
+        ["mint", "silver", "yellow", "blue"].map(cls => {
+          return(
+            <Hexa 
+            hexaBoxStyle={{
+              position: "absolute",
+              opacity: '0.4',
+              zIndex: '1'
+            }} 
+            color = {cls}
+            />
+          )
+        })
+      }
+      </section>
+      <div className="head-clg-name">
+        <h2>BTKIT</h2>
+        <span>Dwarahat</span>
+      </div>
+  
       <section className="particle-section">
         <Particles
           id="tsparticles"
@@ -26,10 +48,12 @@ export default function Header() {
           options={{ ...option }}
         />
       </section>
-      <div className="header-container">
+      <div className="header-container position-relative">
         <Head />
+       
       </div>
-
+      
+   
 
 
       {/* <h2 className="college-name">Bipin Tripathi Kumaon Institute of Technology</h2>
@@ -50,6 +74,7 @@ export default function Header() {
       </div> */}
       {/* 
       <p>Fest Start from 18 April to 19 April 2K22</p> */}
+
 
     </div>
   );
