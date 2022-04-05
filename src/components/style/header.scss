@@ -59,6 +59,8 @@ background-color: #2B2B3F;
         z-index: 10;
         
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        // font-family: var(--pr_font);
+        font-weight: bold;
         h2{
             font-size: 40px;
             letter-spacing: 15px;
