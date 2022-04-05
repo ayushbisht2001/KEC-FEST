@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/KEC-FEST/static/css/main.28af6b4e.css",
-    "main.js": "/KEC-FEST/static/js/main.32249339.js",
+    "main.css": "/KEC-FEST/static/css/main.272d7d30.css",
+    "main.js": "/KEC-FEST/static/js/main.cdb852d6.js",
     "static/js/415.21dc1cb2.chunk.js": "/KEC-FEST/static/js/415.21dc1cb2.chunk.js",
     "static/js/787.7ecac154.chunk.js": "/KEC-FEST/static/js/787.7ecac154.chunk.js",
     "static/media/kvlogo.png": "/KEC-FEST/static/media/kvlogo.6068e22265391abb24eb.png",
     "index.html": "/KEC-FEST/index.html",
-    "main.28af6b4e.css.map": "/KEC-FEST/static/css/main.28af6b4e.css.map",
-    "main.32249339.js.map": "/KEC-FEST/static/js/main.32249339.js.map",
+    "main.272d7d30.css.map": "/KEC-FEST/static/css/main.272d7d30.css.map",
+    "main.cdb852d6.js.map": "/KEC-FEST/static/js/main.cdb852d6.js.map",
     "415.21dc1cb2.chunk.js.map": "/KEC-FEST/static/js/415.21dc1cb2.chunk.js.map",
     "787.7ecac154.chunk.js.map": "/KEC-FEST/static/js/787.7ecac154.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.28af6b4e.css",
-    "static/js/main.32249339.js"
+    "static/css/main.272d7d30.css",
+    "static/js/main.cdb852d6.js"
   ]
 }
