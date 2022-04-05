@@ -5,6 +5,11 @@
     
 }
 
+.events{
+    z-index: 20;
+    position: relative;
+}
+
 hr{
     /* width: 2px; */
     margin: 0;

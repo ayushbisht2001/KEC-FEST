@@ -1,23 +1,42 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
+import { useWindowScroll } from "react-use"
 import "./style/header.scss";
-import logo from '../kvlogo.png'
+// import logo from '../kvlogo.png'
 import Particles from "react-tsparticles";
 import { option } from "./utility/paritcle";
 import Head from "./svg/head";
 
 export default function Header() {
 
+  const { y: pageOffSet } = useWindowScroll();
+  const [visible, setVisible] = useState(false);
+
+  useEffect(() => {
+    if (pageOffSet > 1200) {
+      setVisible(true)
+    } else {
+      setVisible(false);
+    }
+  }, [pageOffSet])
+
+  const handleTop = (e) => window.scrollTo({ top: 0, behavior: 'smooth' });
+
+
   const particlesInit = (main) => {
     console.log(main);
 
   };
-
   const particlesLoaded = (container) => {
     console.log(container);
   };
 
   return (
     <div className="header">
+
+      {visible && <div onClick={handleTop} id="button">
+        <i class="fas fa-angle-up"></i>
+      </div>}
+
       <section className="particle-section">
         <Particles
           id="tsparticles"
