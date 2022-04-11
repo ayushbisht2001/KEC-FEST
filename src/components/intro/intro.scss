@@ -3,14 +3,14 @@
     font-size: 18px;
     position: relative;
     z-index: 10;
-    height: 100%;
+    height: auto;
     display: grid;
     place-items: center;
     
     .intro-box{
         padding : 20px;
         width: 100%;
-        height: calc(100% - 80px );
+        height: calc(100% );
         opacity: 1;
         overflow: auto;
         display: flex;
@@ -38,11 +38,17 @@
 
 .why-k{
     height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    .intro-box{
+        height: calc(100% - 80px );
+    }
 }
 
 .screen, .mob-screen {
     width: 100%;
-    height: 80%;
+    height: 600px;
     margin: 20px 10px;
     border: 2px solid rgb(243, 242, 242);
     background-color: #282c35;
@@ -54,6 +60,7 @@
 .mob-screen{
     border-radius: 20px 20px 20px 20px;
     width: 70%;
+    height: 500px;
 }
 
 .screen-browser , .mob-screen-browser {
@@ -133,11 +140,23 @@
 
 
 
+@media (max-width : 800px) {
 
-
-@media screen and (max-width:480px) {
-    .screen {
-        width: 44%;
-        height: 20vh;
+    .intro-container{
+        font-size: 1.1rem;
+    
+        .intro-head h2{
+            font-size: 1.5rem !important ;
+        }
     }
+    
+    .screen {
+      height: 400px ;
+    }
+    .mob-screen{
+        height: 500px;
+    }
+
 }
+
+

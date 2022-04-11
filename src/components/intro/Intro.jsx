@@ -70,7 +70,7 @@ export default function Intro() {
             </div>
           </div>
         </div>
-        <div className="col col-sm-12 col-md-4 d-flex justify-content-center align-items-center">
+        <div className="col col-sm-12 col-md-4 d-flex  align-items-center">
           <div className="why-k">
             <div className="mob-screen">
               <div className="mob-screen-browser bg-dark">
