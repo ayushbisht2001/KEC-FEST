@@ -32,44 +32,8 @@ export default function Header() {
   };
 
   return (
-    <div className="header position-relative">
-      <section className='container-fluid position-absolute' style={{ width : "100%", height : "120vh"}}>
-      {
-        ["mint", "silver", "yellow", "blue"].map(cls => {
-          return(
-            <Hexa 
-            hexaBoxStyle={{
-              position: "absolute",
-              opacity: '0.4',
-              zIndex: '1'
-            }} 
-            color = {cls}
-            />
-          )
-        })
-      }
-      </section>
-      <div className="head-clg-name">
-        <h2>BTKIT</h2>
-        <span>Dwarahat</span>
-      </div>
-  
-      <section className="particle-section">
-        <Particles
-          id="tsparticles"
-          init={particlesInit}
-          loaded={particlesLoaded}
-          options={{ ...option }}
-        />
-      </section>
-      <div className="header-container position-relative">
-        <Head />
-       
-      </div>
-      
-   
     <div className="header">
-      
+
       {visible && <div onClick={handleTop} id="button">
         <i class="fas fa-angle-up"></i>
       </div>}
@@ -96,14 +60,14 @@ export default function Header() {
           <span>Dwarahat</span>
         </div>
 
-        <section className="particle-section">
+        {/* <section className="particle-section">
           <Particles
             id="tsparticles"
             init={particlesInit}
             loaded={particlesLoaded}
             options={{ ...option }}
           />
-        </section>
+        </section> */}
         <div className="header-container position-relative">
           <Head />
 
@@ -133,7 +97,6 @@ export default function Header() {
 
 
       </div>
-    </div>
     </div>
 
   );

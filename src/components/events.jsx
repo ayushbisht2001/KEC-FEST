@@ -9,11 +9,13 @@ export default function Events(props) {
   const {
     title,
     id,
+    subtitle,
     venue,
     date,
     time,
     coordinators,
     desc,
+    rules,
     style,
     cls = "default",
     left,
@@ -21,47 +23,53 @@ export default function Events(props) {
   } = props.data;
 
   return (
-      <section id={`events-${id}`} style={{ backgroundColor: style.color.bg, color: "white" }} className={`container-fluid event-container ${cls}  `}>
-        <div className="row   " style={{ zIndex: '2' }}>
-          <div className={`col-md-12 col-lg-6 left ${id % 2 ? "order-first" : "order-last"}`} style={{ zIndex: '3' }} >{left}</div>
-          <div className="col-sm-12 col-md-12 col-lg-6 right">
-            <div className="d-flex flex-column p-3 justify-content-center align-item-center">
-              <h2>{title}</h2>
+    <section id={`events-${id}`} style={{ backgroundColor: style.color.bg, color: "white" }} className={`container-fluid event-container ${cls}  `}>
+      <div className="row   " style={{ zIndex: '2' }}>
+        <div className={`col-md-12 col-lg-5 left ${id % 2 ? "order-first" : "order-last"}`} style={{ zIndex: '3' }} >{left}</div>
+        <div className="col-sm-12 col-md-12 col-lg-7 right">
+          <div className="d-flex flex-column p-3 justify-content-center align-item-center">
+            <h2>{title}</h2>
+            {subtitle && <h6 style={{ color: style.color.primary }} className="subtitle"> "{subtitle}"</h6>}
+            <p className="desc">{desc}</p>
+            <div className=" cord-block ">
+              <p style={{ color: style.color.primary }} > Rules : </p>
+              <ul className="cord">
+                {rules &&
+                  rules.map((rule) => (
+                    <li>
+                      {rule}
+                    </li>
+                  ))}
+              </ul>
 
-              <pre className="mt-2 time" style={{ color: style.color.secondary }}>
-                {" "}
-                {date},&nbsp;{time}{" "}
-              </pre>
-              <pre className="venue"> At {venue} </pre>
-              <p className="desc">{desc}</p>
-              <div className=" cord-block d-block">
-                <p style={{ color: style.color.primary }} > Coordinators</p>
-                <ul className="cord">
-                  {coordinators &&
-                    coordinators.map((co) => (
-                      <li>
-                        <pre>
-                          {co.name}, {co.branch} , {co.year}
-                        </pre>
-                      </li>
-                    ))}
-                </ul>
-              </div>
+              <p style={{ color: style.color.primary }} > coordinators : </p>
+              <ul className="cord">
+                {coordinators &&
+                  coordinators.map((co) => (
+                    <li>
+                      <pre>
+                        {co.name} ({co.branch} , {co.year})
+                      </pre>
+                    </li>
+                  ))}
+              </ul>
             </div>
           </div>
         </div>
-        {
-          hexas.map((clr, ind) => {
-            return (
-              <Hexa color={clr} hexaBoxStyle={{
-                position: "absolute",
-                opacity: '0.4',
-                zIndex: '1'
-              }} />
-            )
+      </div>
+      {
+        hexas.map((clr, ind) => {
+          return (
+            <Hexa color={clr} hexaBoxStyle={{
+              position: "absolute",
+              opacity: '0.4',
+              zIndex: '1'
+            }} />
+          )
 
-          })
-        }
-      </section>
+        })
+      }
+    </section >
   );
 }
+

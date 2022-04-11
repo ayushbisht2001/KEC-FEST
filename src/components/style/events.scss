@@ -1,7 +1,7 @@
 .event-container{
 
     width: 100%;
-    height: 100vh;
+    // height: 100vh;
     scroll-snap-align: start;  
     position: relative;
     .row{
@@ -24,8 +24,14 @@
         transform: scale(3);
         bottom : 20%;
     }
- 
 
+    .subtitle{
+        text-align: center;
+        font-style: italic;
+        font-weight: bold;
+        font-size: 1.2rem;
+    }
+      
 }
 
 .events>h1{
@@ -42,7 +48,7 @@
         font-weight: bold;
         font-family: var(--pr_font) ;
         text-align: center;
-        font-size: 4rem;
+        font-size: 3.5rem;
     }
     .time, .venue {
         font-size: 1.5rem;
@@ -52,7 +58,7 @@
     }
 
     .desc{
-        font-size : 1.3rem;
+        font-size : 1.1rem;
         text-align  : left;
         margin : 10px auto auto auto ;
         font-family: var(--se_font) ;
@@ -60,24 +66,24 @@
     }
 
     .cord-block{
-        margin-top: 10px;
-        padding: 10px;
+        // margin-top: 10px;
+        padding: 5px 10px;
         font-family: var(--se_font) ;
 
         p{
-            font-size : 1.6rem;
+            font-size : 1.3rem;
             font-weight: 650;
 
         }
         .cord{
 
-            list-style: none;
+            // list-style: none;
             display: flex;
             flex-direction: column;
             
             li{
-                padding : 2px;
-                font-size: 1.3rem;
+                // padding : 2px;
+                font-size: 1.1rem;
             }
         }
 
