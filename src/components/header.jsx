@@ -60,14 +60,14 @@ export default function Header() {
           <span>Dwarahat</span>
         </div>
 
-        <section className="particle-section">
+        {/* <section className="particle-section">
           <Particles
             id="tsparticles"
             init={particlesInit}
             loaded={particlesLoaded}
             options={{ ...option }}
           />
-        </section>
+        </section> */}
         <div className="header-container position-relative">
           <Head />
 
