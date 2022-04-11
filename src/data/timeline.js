@@ -28,7 +28,7 @@ export const Timeline = [
         year: "3rd",
       },
     ],
-    desc : `
+    desc: `
     Behind every successful business, there is a good UI and a good UX. At dev.inc.co we value
 innovation in the design and its implementation. Unlike some other development
 competitions, we at Kaivalya don’t have any limits or any restrictions. Using any of the
@@ -36,7 +36,7 @@ technologies like Android, ASP.NET, etc. we want participants to develop an inno
 solution based on a given theme which will be judged on the basis of all factors like UI, UX
 and efficiency.
     `,
-     rules: [
+    rules: [
       `“Dev.inc.co” will be conducted onsite in the Campus of BTKIT Dwarahat.`,
       `It is a team event and a team can consist of up to 3 members.,`,
       `We only allow college students to participate and hence a certificate and prizes will be given to winners.`,
@@ -98,7 +98,7 @@ and efficiency.
       },
     ],
 
-   desc : `
+    desc: `
    These days, typing can seem like it is not such an important skill as it once was. For
 example, we are becoming increasingly used to talking to our machines with the advances
 being made by Google Home, Alexa, Cortana, and Siri.
@@ -151,7 +151,7 @@ a computer in some capacity (which is most people!)
       },
     ],
 
-  desc : `
+    desc: `
   At “IDEATHON”, the idea is yours and the platform is ours. This year in IDEATHON, we have
 not put any barrier on the field of your idea. If you have an idea, be it a business one or a
 technological one, register with IDEATHON and present it to us. Then on the basis of ideas,
@@ -216,7 +216,7 @@ BTKIT Campu
       },
     ],
 
-  desc : `
+    desc: `
   In Gambit, we expect you to code as if you’re coding for your life. The organizers of Gambit
 believe in situation coding more than anything else. In Gambit we give you a chance to show
 your worth as a sports coder sitting anywhere in the world. In the few years since its
@@ -276,7 +276,7 @@ on factors like number of problems solved, time taken and accuracy of solutions.
       },
     ],
 
-    desc : `
+    desc: `
     It is a kind of fun event which also tests your skills on how well you understand what you
 are writing on screen without seeing it. It consists of two members which provides a little
 more trouble as you have to coordinate with your partner also and this will surely make you
@@ -380,7 +380,7 @@ learn how to work in a team`,
       },
     ],
 
-    desc : `Speed!! Speed!! Speed!!
+    desc: `Speed!! Speed!! Speed!!
     Mathematica is a game of questions and answers on all problem solving aspects that is
     open for all. The event will typically be organized onsite. There will be several problems that
     need to be solved by participants.`,
