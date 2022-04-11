@@ -2,8 +2,6 @@ import React, { useEffect, useState } from "react";
 import { useWindowScroll } from "react-use"
 import "./style/header.scss";
 // import logo from '../kvlogo.png'
-import Particles from "react-tsparticles";
-import { option } from "./utility/paritcle";
 import Head from "./svg/head";
 import { Hexa } from "./svg/hexa"
 
@@ -22,14 +20,6 @@ export default function Header() {
 
   const handleTop = (e) => window.scrollTo({ top: 0, behavior: 'smooth' });
 
-
-  const particlesInit = (main) => {
-    console.log(main);
-
-  };
-  const particlesLoaded = (container) => {
-    console.log(container);
-  };
 
   return (
     <div className="header">
@@ -60,14 +50,6 @@ export default function Header() {
           <span>Dwarahat</span>
         </div>
 
-        {/* <section className="particle-section">
-          <Particles
-            id="tsparticles"
-            init={particlesInit}
-            loaded={particlesLoaded}
-            options={{ ...option }}
-          />
-        </section> */}
         <div className="header-container position-relative">
           <Head />
 
