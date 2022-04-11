@@ -69,7 +69,7 @@ export default function Header() {
       
    
     <div className="header">
-
+      
       {visible && <div onClick={handleTop} id="button">
         <i class="fas fa-angle-up"></i>
       </div>}
@@ -134,5 +134,7 @@ export default function Header() {
 
       </div>
     </div>
+    </div>
+
   );
 }
