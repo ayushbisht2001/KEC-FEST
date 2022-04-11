@@ -7,7 +7,6 @@ import Contact from './components/Contact/Contact';
 import Footer from './components/footer'
 import Intro from './components/intro/Intro';
 
-
 function App() {
   return (
     <div className='container-fluid p-0 m-0 overflow-hidden' style ={{background : "#2B2B3F"}} >
