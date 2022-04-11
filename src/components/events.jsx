@@ -48,7 +48,7 @@ export default function Events(props) {
                   coordinators.map((co) => (
                     <li>
                       <pre>
-                        {co.name}, {co.branch} , {co.year}
+                        {co.name} ({co.branch} , {co.year})
                       </pre>
                     </li>
                   ))}

@@ -460,56 +460,5 @@ export const Timeline = [
     },
 
 
-    {
-        id: 7,
-        title: "Backtracking",
-        venue: "CSE Department",
-        date: "18 April 2022",
-        time: "10 pm",
-        coordinators: [
-            {
-                name: "Ayush Bisht",
-                branch: "CSE",
-                year: "3rd"
-            },
-            {
-                name: "Mohd Anas",
-                branch: "CSE",
-                year: "3rd"
-            }
-        ],
-
-
-        desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi velit non nisi repellendus deleniti magni accusantium, earum tenetur facilis sit, quaerat quasi atque nihil nemo vero, explicabo fugiat odit voluptatibus. Nihil, odit?",
-
-        rules: [
-            `“MATHEMATICA” will be conducted onsite in BTKIT Dwarahat Campus.`,
-            `It is an individual event and teams aren't allowed.`,
-            `We only allow college students to participate and hence a certificate and prizes will be given to winners.`,
-            `There will be only one round with some multiple choice questions.`,
-            `Participants with maximum marks will be deemed the winner.`,
-            `The decision of the jury remains final while deciding the winners for the same`,
-        ],
-
-        cls: "backtrack",
-        left: <Idea />,
-        style: {
-            color: {
-                "bg": "#FE74AE",
-                "primary": "#b71c1c",
-                "secondary": "#b71c1c",
-                "tertiary": "",
-            }
-        },
-        hexas: [
-            "red",
-            "red",
-            "red",
-
-        ]
-    },
-
-
-
 ]
 
