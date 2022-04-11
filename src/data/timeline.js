@@ -9,6 +9,8 @@ import MonkeyType from "../components/svg/monkey-type";
 const loc = process.env.PUBLIC_URL;
 
 export const Timeline = [
+
+
   {
     id: 1,
     title: "DEV.INC.CO",
@@ -78,57 +80,6 @@ and efficiency.
     hexas: ["silver", "silver", "silver"],
   },
 
-  {
-    id: 3,
-    title: "IDEATHON",
-    subtile: `Idea is blunt, until it is presented`,
-    venue: "CSE Department",
-    date: "18 April 2022",
-    time: "10 pm",
-    coordinators: [
-      {
-        name: "Ayush Bisht",
-        branch: "CSE",
-        year: "3rd",
-      },
-      {
-        name: "Mohd Anas",
-        branch: "CSE",
-        year: "3rd",
-      },
-    ],
-
-    desc: `
-   These days, typing can seem like it is not such an important skill as it once was. For
-example, we are becoming increasingly used to talking to our machines with the advances
-being made by Google Home, Alexa, Cortana, and Siri.
-But typing remains a fundamental skill, and it is still one of the most important computer
-skills you can learn. Learning to type fast and accurately will help you in many ways in life,
-and it should be considered an essential skill for anyone who sees themselves working with
-a computer in some capacity (which is most people!)
-   `,
-    rules: [
-      `“IDEATHON” will be conducted onsite in BTKIT Dwarahat Campus.`,
-      `It is an individual event and teams aren’t allowed.`,
-      `We only allow college students to participate and hence a certificate and prizes will given to winners.`,
-      `There will be only one round of simple presentation and questioning which will be
-            done on ideas selected which are submitted via mail.
-            `,
-      `The decision of the jury remains final while deciding the winners for the same.
-            `,
-    ],
-    cls: "ideathon",
-    left: <Idea />,
-    style: {
-      color: {
-        bg: "#2476E3",
-        primary: "#EE9620",
-        secondary: "#EE9620",
-        tertiary: "",
-      },
-    },
-    hexas: ["blue", "blue", "blue"],
-  },
 
 
   {
@@ -187,13 +138,66 @@ BTKIT Campu
     </>,
     style: {
       color: {
-        bg: "#000",
-        primary: "rgba(112, 106, 106, 0.861)",
-        secondary: "rgba(82, 71, 71, 0.886)",
+        bg: "#159D8C",
+        primary: "#93f9ed",
+        secondary: "#93f9ed",
         tertiary: "",
       },
     },
-    hexas: ["silver", "silver", "silver"],
+    hexas: ["mint", "mint", "mint"],
+  },
+
+
+  {
+    id: 3,
+    title: "IDEATHON",
+    subtile: `Idea is blunt, until it is presented`,
+    venue: "CSE Department",
+    date: "18 April 2022",
+    time: "10 pm",
+    coordinators: [
+      {
+        name: "Ayush Bisht",
+        branch: "CSE",
+        year: "3rd",
+      },
+      {
+        name: "Mohd Anas",
+        branch: "CSE",
+        year: "3rd",
+      },
+    ],
+
+    desc: `
+   These days, typing can seem like it is not such an important skill as it once was. For
+example, we are becoming increasingly used to talking to our machines with the advances
+being made by Google Home, Alexa, Cortana, and Siri.
+But typing remains a fundamental skill, and it is still one of the most important computer
+skills you can learn. Learning to type fast and accurately will help you in many ways in life,
+and it should be considered an essential skill for anyone who sees themselves working with
+a computer in some capacity (which is most people!)
+   `,
+    rules: [
+      `“IDEATHON” will be conducted onsite in BTKIT Dwarahat Campus.`,
+      `It is an individual event and teams aren’t allowed.`,
+      `We only allow college students to participate and hence a certificate and prizes will given to winners.`,
+      `There will be only one round of simple presentation and questioning which will be
+            done on ideas selected which are submitted via mail.
+            `,
+      `The decision of the jury remains final while deciding the winners for the same.
+            `,
+    ],
+    cls: "ideathon",
+    left: <Idea />,
+    style: {
+      color: {
+        bg: "#2476E3",
+        primary: "#EE9620",
+        secondary: "#EE9620",
+        tertiary: "",
+      },
+    },
+    hexas: ["blue", "blue", "blue"],
   },
 
 
@@ -217,21 +221,13 @@ BTKIT Campu
     ],
 
     desc: `
-  In Gambit, we expect you to code as if you’re coding for your life. The organizers of Gambit
-believe in situation coding more than anything else. In Gambit we give you a chance to show
-your worth as a sports coder sitting anywhere in the world. In the few years since its
-inception, Gambit has blossomed into a hub, a community of marathon coders. 
-Gambit is the signature event of “Kaivalya”, the annual Activity Fest of the Computer
-Science Department, BTKIT Dwarahat. It is an online situation coding competition
-conducted on codechef.com or hackerearth.com that allows participants (College Students)
-to appear online from anywhere in the world. Gambit 2022 will start at post lunch time (2
-P.M. IST or later) and be over by evening. For the first time Gambit will be organized for the
-first year (to increase their participation and interest) and other years separately for fair
-results. It consists of two rounds, the prelims and final. Participants from colleges are also
-encouraged to participate onsite at BTKIT campus. Proper Internet facility will be provided.
-There will be several challenges to solve in limited time and winners will be decided based
-on factors like number of problems solved, time taken and accuracy of solutions.
-  `,
+    These days, typing can seem like it is not such an important skill as it once was. For
+example, we are becoming increasingly used to talking to our machines with the advances
+being made by Google Home, Alexa, Cortana, and Siri.
+But typing remains a fundamental skill, and it is still one of the most important computer
+skills you can learn. Learning to type fast and accurately will help you in many ways in life,
+and it should be considered an essential skill for anyone who sees themselves working with
+a computer in some capacity (which is most people!`,
     rules: [
       `Monkey Typing will be conducted onsite in the Campus of BTKIT Dwarahat.`,
       `This is an individual event.No teams allowed.`,
@@ -345,17 +341,34 @@ learn how to work in a team`,
       `The decision of the jury remains final while deciding the winners for the same`
     ],
 
-    left: <CssBattle />,
+    left: (<>
+      {" "}
+      <div
+        style={{
+          width: "100%",
+          height: "100%",
+          display: "grid",
+          placeItems: "center",
+        }}
+        className="logoDesign"
+      >
+        <img
+          style={{ width: "100%" }}
+          src={`${loc}/image/knowbuddy.png`}
+          alt="LOGO "
+        />
+      </div>{" "}
+    </>),
     cls: "css-battle",
     style: {
       color: {
-        bg: "#159D8C",
-        primary: "#30CEF1",
-        secondary: "#7FC468",
+        bg: "#2476E3",
+        primary: "#EE9620",
+        secondary: "#EE9620",
         tertiary: "",
       },
     },
-    hexas: ["mint", "mint", "mint"],
+    hexas: ["blue", "blue", "blue"],
   },
 
 
@@ -508,17 +521,34 @@ learn how to work in a team`,
 
     ],
 
-    left: <CssBattle />,
+    left: (<>
+      {" "}
+      <div
+        style={{
+          width: "100%",
+          height: "100%",
+          display: "grid",
+          placeItems: "center",
+        }}
+        className="logoDesign"
+      >
+        <img
+          style={{ width: "100%" }}
+          src={`${loc}/image/techtalk.png`}
+          alt="LOGO "
+        />
+      </div>{" "}
+    </>),
     cls: "css-battle",
     style: {
       color: {
-        bg: "#159D8C",
-        primary: "#30CEF1",
-        secondary: "#7FC468",
+        bg: "#FC8D14",
+        primary: "#000",
+        secondary: "#000",
         tertiary: "",
       },
     },
-    hexas: ["mint", "mint", "mint"],
+    hexas: ["silver", "silver", "silver"],
   },
   {
     id: 12,
