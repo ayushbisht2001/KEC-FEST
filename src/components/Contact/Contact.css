@@ -120,7 +120,7 @@ button {
     }
 
     .c-title {
-        font-size: 30px;
+        font-size: 40px !important;
         width: 100%;
     }
 

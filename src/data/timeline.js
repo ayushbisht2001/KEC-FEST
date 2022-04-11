@@ -101,6 +101,7 @@ export const Timeline = [
             }
         ],
 
+
         desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi velit non nisi repellendus deleniti magni accusantium, earum tenetur facilis sit, quaerat quasi atque nihil nemo vero, explicabo fugiat odit voluptatibus. Nihil, odit?",
         cls: "backtrack",
         left: <Idea />,
