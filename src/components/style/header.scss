@@ -57,10 +57,9 @@ background-color: #2B2B3F;
         display: flex;
         flex-direction: column;
         z-index: 10;
-        
-
-        font-family: var(--sr_font);
+        font-family: var(--tr_font);
         font-weight: bold;
+
         h2{
             font-size: 40px;
             letter-spacing: 15px;
@@ -68,6 +67,7 @@ background-color: #2B2B3F;
             text-shadow:  5px 0px 2px grey;
             border-bottom: 1px solid #FE74AE;
             display: inline-block;
+            font-family: var(--tr_font)
         }
         span{
             font-size: 25px;

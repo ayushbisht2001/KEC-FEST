@@ -10,6 +10,10 @@
     position: relative;
 }
 
+.events h2{
+    font-family: var(--pr_font);
+}
+
 hr{
     /* width: 2px; */
     margin: 0;
