@@ -28,10 +28,15 @@ export const Timeline = [
         year: "3rd",
       },
     ],
-
-    desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi velit non nisi repellendus deleniti magni accusantium, earum tenetur facilis sit, quaerat quasi atque nihil nemo vero, explicabo fugiat odit voluptatibus. Nihil, odit?",
-
-    rules: [
+    desc : `
+    Behind every successful business, there is a good UI and a good UX. At dev.inc.co we value
+innovation in the design and its implementation. Unlike some other development
+competitions, we at Kaivalya don’t have any limits or any restrictions. Using any of the
+technologies like Android, ASP.NET, etc. we want participants to develop an innovative
+solution based on a given theme which will be judged on the basis of all factors like UI, UX
+and efficiency.
+    `,
+     rules: [
       `“Dev.inc.co” will be conducted onsite in the Campus of BTKIT Dwarahat.`,
       `It is a team event and a team can consist of up to 3 members.,`,
       `We only allow college students to participate and hence a certificate and prizes will be given to winners.`,
@@ -93,8 +98,15 @@ export const Timeline = [
       },
     ],
 
-    desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi velit non nisi repellendus deleniti magni accusantium, earum tenetur facilis sit, quaerat quasi atque nihil nemo vero, explicabo fugiat odit voluptatibus. Nihil, odit?",
-
+   desc : `
+   These days, typing can seem like it is not such an important skill as it once was. For
+example, we are becoming increasingly used to talking to our machines with the advances
+being made by Google Home, Alexa, Cortana, and Siri.
+But typing remains a fundamental skill, and it is still one of the most important computer
+skills you can learn. Learning to type fast and accurately will help you in many ways in life,
+and it should be considered an essential skill for anyone who sees themselves working with
+a computer in some capacity (which is most people!)
+   `,
     rules: [
       `“IDEATHON” will be conducted onsite in BTKIT Dwarahat Campus.`,
       `It is an individual event and teams aren’t allowed.`,
@@ -139,8 +151,13 @@ export const Timeline = [
       },
     ],
 
-    desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi velit non nisi repellendus deleniti magni accusantium, earum tenetur facilis sit, quaerat quasi atque nihil nemo vero, explicabo fugiat odit voluptatibus. Nihil, odit?",
-
+  desc : `
+  At “IDEATHON”, the idea is yours and the platform is ours. This year in IDEATHON, we have
+not put any barrier on the field of your idea. If you have an idea, be it a business one or a
+technological one, register with IDEATHON and present it to us. Then on the basis of ideas,
+five ideas will be selected and should be displayed in an onsite event to be conducted in
+BTKIT Campu
+  `,
     rules: [
       `“Gambit” will be hosted online on codechef.com or hackerearth.com.`,
       `It is a team event and a team can consist of up to 3 members`,
@@ -199,8 +216,22 @@ export const Timeline = [
       },
     ],
 
-    desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi velit non nisi repellendus deleniti magni accusantium, earum tenetur facilis sit, quaerat quasi atque nihil nemo vero, explicabo fugiat odit voluptatibus. Nihil, odit?",
-
+  desc : `
+  In Gambit, we expect you to code as if you’re coding for your life. The organizers of Gambit
+believe in situation coding more than anything else. In Gambit we give you a chance to show
+your worth as a sports coder sitting anywhere in the world. In the few years since its
+inception, Gambit has blossomed into a hub, a community of marathon coders. 
+Gambit is the signature event of “Kaivalya”, the annual Activity Fest of the Computer
+Science Department, BTKIT Dwarahat. It is an online situation coding competition
+conducted on codechef.com or hackerearth.com that allows participants (College Students)
+to appear online from anywhere in the world. Gambit 2022 will start at post lunch time (2
+P.M. IST or later) and be over by evening. For the first time Gambit will be organized for the
+first year (to increase their participation and interest) and other years separately for fair
+results. It consists of two rounds, the prelims and final. Participants from colleges are also
+encouraged to participate onsite at BTKIT campus. Proper Internet facility will be provided.
+There will be several challenges to solve in limited time and winners will be decided based
+on factors like number of problems solved, time taken and accuracy of solutions.
+  `,
     rules: [
       `Monkey Typing will be conducted onsite in the Campus of BTKIT Dwarahat.`,
       `This is an individual event.No teams allowed.`,
@@ -245,7 +276,11 @@ export const Timeline = [
       },
     ],
 
-    desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi velit non nisi repellendus deleniti magni accusantium, earum tenetur facilis sit, quaerat quasi atque nihil nemo vero, explicabo fugiat odit voluptatibus. Nihil, odit?",
+    desc : `
+    It is a kind of fun event which also tests your skills on how well you understand what you
+are writing on screen without seeing it. It consists of two members which provides a little
+more trouble as you have to coordinate with your partner also and this will surely make you
+learn how to work in a team`,
 
     rules: [
       `“Blind Coding” will be conducted onsite in BTKIT Dwarahat Campus.`,
@@ -345,8 +380,10 @@ export const Timeline = [
       },
     ],
 
-    desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi velit non nisi repellendus deleniti magni accusantium, earum tenetur facilis sit, quaerat quasi atque nihil nemo vero, explicabo fugiat odit voluptatibus. Nihil, odit?",
-
+    desc : `Speed!! Speed!! Speed!!
+    Mathematica is a game of questions and answers on all problem solving aspects that is
+    open for all. The event will typically be organized onsite. There will be several problems that
+    need to be solved by participants.`,
     rules: [
       `“MATHEMATICA” will be conducted onsite in BTKIT Dwarahat Campus.`,
       `It is an individual event and teams aren’t allowed.`,
