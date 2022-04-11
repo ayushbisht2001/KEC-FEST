@@ -19,7 +19,7 @@ export default function Header() {
 
   return (
     <div className="header position-relative">
-      <section className='container-fluid position-absolute' style={{ width : "100%", height : "100vh"}}>
+      <section className='container-fluid position-absolute' style={{ width : "100%", height : "120vh"}}>
       {
         ["mint", "silver", "yellow", "blue"].map(cls => {
           return(

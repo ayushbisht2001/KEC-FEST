@@ -12,7 +12,6 @@ export default function Body() {
                 fontFamily: "Cabin, sans-serif", background:
                     'transparent',zIndex : "6"
             }} className="container-fluid position-relative" >
-                <hr />
                 <div className="events">
                     <h1 >Events</h1>
                     <div class="row ">
@@ -20,12 +19,10 @@ export default function Body() {
                             <div class="row">
                                 <div class="col-md-12">
                                     <div class="main-timeline2">
-
                                         {
                                             Timeline && Timeline.map(item => {
                                                 return (
                                                     <>
-
                                                         <a class="timeline" href={`#events-${item.id}`}>
                                                             <span class="icon fa fa-globe"></span>
                                                             <p class="timeline-content"  >

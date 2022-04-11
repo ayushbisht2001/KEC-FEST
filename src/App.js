@@ -5,6 +5,7 @@ import { Timeline } from './data/timeline';
 import Events from './components/events';
 import Contact from './components/Contact/Contact';
 import Footer from './components/footer'
+import Intro from './components/intro/Intro';
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
 
 
       <Header />
+      <Intro />
       <Body />
       <div style={{ scrollSnapType: "y mandatory" }} className='container-fluid p-0 m-0'>
         {
