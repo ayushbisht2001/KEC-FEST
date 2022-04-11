@@ -29,7 +29,7 @@ export default function Events(props) {
         <div className="col-sm-12 col-md-12 col-lg-7 right">
           <div className="d-flex flex-column p-3 justify-content-center align-item-center">
             <h2>{title}</h2>
-            {subtitle && <h6 className="subtitle"> "{subtitle}"</h6>}
+            {subtitle && <h6 style={{ color: style.color.primary }} className="subtitle"> "{subtitle}"</h6>}
             <p className="desc">{desc}</p>
             <div className=" cord-block ">
               <p style={{ color: style.color.primary }} > Rules : </p>
