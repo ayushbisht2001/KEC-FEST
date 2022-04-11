@@ -206,7 +206,54 @@ background-color: #2B2B3F;
         }
     }
 }
+
 .particle-section #tsparticles canvas{
     position: relative !important;
 
 }
+
+#button {
+    display: inline-block;
+    background-color: var(--color-orange) ;
+    width: 50px;
+    height: 50px;
+    line-height: 60px;
+    text-align: center;
+    border-radius: 5px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    transition: background-color .3s,
+    opacity .5s, visibility .5s;
+    opacity: 1;
+    z-index: 10000;
+    cursor: pointer;
+  }
+
+  #button i {
+    font-size: 32px;
+    color: white;
+    animation: scrollTop .2s alternate ease  infinite ;;
+  }
+
+  @keyframes scrollTop {
+      from{
+          transform: translateY(2px);
+      }
+      to{
+          transform: translateY(-2px);
+      }
+  }
+
+
+  #button:hover {
+    cursor: pointer;
+    background-color: #333;
+  }
+
+
+  @media (min-width: 480px) {
+    #button {
+      margin: 30px;
+    }
+  }
